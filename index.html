@@ -13,6 +13,54 @@
 </head>
 <body>
 
+<div class="section">
+    <div class="mobile-bar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                        </svg>
+                        <p>Makine Al</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                        </svg>
+                        <p>Makine Sat</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="active">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                        </svg>
+                        <p>Anasayfa</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <p>Kategoriler</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                        <p>Arama</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="topbar">
         <div class="container">
             <div class="row">
@@ -47,8 +95,12 @@
             </form>
             </div>
             <div class="nav-login-register">
-                <button class="btn btn-success">Giriş Yap</button>
-                <button class="btn btn-outline-secondary">Üye Ol</button>
+                <a href="giris-yap.html">
+                    <button class="btn btn-success">Giriş Yap</button>
+                </a>
+                <a href="kayit-ol.html">
+                    <button class="btn btn-outline-secondary">Üye Ol</button>
+                </a>
             </div>
         </div>
     </nav>
@@ -99,11 +151,11 @@
         <div class="container">
             <div class="overlay"></div>
             <div class="row align-items-center">
-                <div class="col-md-3">
-                    <a href="makine-al.html" class="btn btn-success btn-lg btn-block"><i class="fas fa-plus mr-2"></i> Makine Al</a>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-6">
+                    <a href="makine-al.html" class="btn btn-success btn-lg btn-block mobile-btn"><i class="fas fa-plus mr-2"></i> Makine Al</a>
                 </div>
-                <div class="col-md-3">
-                    <a href="makine-al-liste.html" class="btn btn-outline-success btn-lg btn-block"><i class="fas fa-tag mr-2"></i>Makine Sat</a>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-6">
+                    <a href="makine-al-liste.html" class="btn btn-outline-success btn-lg btn-block mobile-btn"><i class="fas fa-tag mr-2"></i>Makine Sat</a>
                 </div>
                 <div class="col-md-6">
                     <h4>Hemen makine alıp satmaya başlayın!</h4>
@@ -118,7 +170,7 @@
                 <div class="col-md-12">
                     <div class="title-button">
                         <h4>Sıfır Gibi Vitrin</h4>
-                        <button class="btn btn-success">Tümünü Gör
+                        <button class="btn btn-success sm-d-none">Tümünü Gör
                             <i class="fas fa-chevron-right ml-2"></i>
                         </button>
                     </div>
@@ -139,15 +191,15 @@
                             <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
                             <div class="card-features">
                                 <div class="row">
-                                    <div class="col-md-4 border-right">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-4 border-right">
                                         <i class="fas fa-tag"></i>
                                         <span>Marka <br> Star</span>
                                     </div>
-                                    <div class="col-md-4 border-right text-center">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-4 border-right text-center">
                                         <i class="fas fa-tag"></i>
                                         <span>Marka <br> Star</span>
                                     </div>
-                                    <div class="col-md-4 text-center">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                                         <i class="fas fa-tag"></i>
                                         <span>Marka <br> Star</span>
                                     </div>
@@ -158,7 +210,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                             <div class="card shadow mb-4">
                                 <div class="position-relative">
                                     <img src="images/card-ing-height-down.png" class="card-img-top" alt="card-img">
@@ -167,7 +219,7 @@
                                     </div>
                                 </div>
                                 <div class="card-body">
-                                    <p class="card-date mb-1">12 Ocak 2021</p>
+                                    <p class="card-date mb-1 sm-7-735-400">12 Ocak 2021</p>
                                     <p class="card-work mb-1">CNC İşleme Merkesi</p>
                                     <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
                                     <div class="card-features">
@@ -189,7 +241,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                             <div class="card shadow mb-4">
                                 <div class="position-relative">
                                     <img src="images/card-ing-height-down.png" class="card-img-top" alt="card-img">
@@ -203,15 +255,15 @@
                                     <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
                                     <div class="card-features">
                                         <div class="row">
-                                            <div class="col-md-4 border-right">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-4 border-right">
                                                 <i class="fas fa-tag"></i>
                                                 <span>Marka <br> Star</span>
                                             </div>
-                                            <div class="col-md-4 border-right text-center">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-4 border-right text-center">
                                                 <i class="fas fa-tag"></i>
                                                 <span>Marka <br> Star</span>
                                             </div>
-                                            <div class="col-md-4 text-center">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                                                 <i class="fas fa-tag"></i>
                                                 <span>Marka <br> Star</span>
                                             </div>
@@ -220,7 +272,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                             <div class="card shadow mb-4">
                                 <div class="position-relative">
                                     <img src="images/card-ing-height-down.png" class="card-img-top" alt="card-img">
@@ -234,15 +286,15 @@
                                     <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
                                     <div class="card-features">
                                         <div class="row">
-                                            <div class="col-md-4 border-right">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-4 border-right">
                                                 <i class="fas fa-tag"></i>
                                                 <span>Marka <br> Star</span>
                                             </div>
-                                            <div class="col-md-4 border-right text-center">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-4 border-right text-center">
                                                 <i class="fas fa-tag"></i>
                                                 <span>Marka <br> Star</span>
                                             </div>
-                                            <div class="col-md-4 text-center">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                                                 <i class="fas fa-tag"></i>
                                                 <span>Marka <br> Star</span>
                                             </div>
@@ -251,7 +303,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                             <div class="card shadow mb-4">
                                 <div class="position-relative">
                                     <img src="images/card-ing-height-down.png" class="card-img-top" alt="card-img">
@@ -265,15 +317,15 @@
                                     <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
                                     <div class="card-features">
                                         <div class="row">
-                                            <div class="col-md-4 border-right">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-4 border-right">
                                                 <i class="fas fa-tag"></i>
                                                 <span>Marka <br> Star</span>
                                             </div>
-                                            <div class="col-md-4 border-right text-center">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-4 border-right text-center">
                                                 <i class="fas fa-tag"></i>
                                                 <span>Marka <br> Star</span>
                                             </div>
-                                            <div class="col-md-4 text-center">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                                                 <i class="fas fa-tag"></i>
                                                 <span>Marka <br> Star</span>
                                             </div>
@@ -1027,6 +1079,8 @@
             </div>
         </div>
     </footer>
+    
+</div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

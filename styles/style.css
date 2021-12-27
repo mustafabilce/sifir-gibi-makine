@@ -67,7 +67,7 @@ body {
 }
 
 .text-light-gray {
-  color: #8E8E8E !important;
+  color: #8e8e8e !important;
 }
 
 .bg-green {
@@ -75,7 +75,7 @@ body {
 }
 
 .bg-dark-blue {
-  background-color: #232F5F !important;
+  background-color: #232f5f !important;
 }
 
 .bg-light-orange {
@@ -83,7 +83,7 @@ body {
 }
 
 .text-yellow {
-  color: #FFB800 !important;
+  color: #ffb800 !important;
 }
 
 .text-green-light {
@@ -1188,10 +1188,10 @@ footer .footer-bottom p {
 }
 
 .sgm-makine-liste .boxes-filter button {
-    padding: 0;
-    text-align: center;
-    margin-right: 10px;
-    color: #e0e0e0;
+  padding: 0;
+  text-align: center;
+  margin-right: 10px;
+  color: #e0e0e0;
 }
 
 .sgm-makine-liste .boxes-filter button:focus {
@@ -1199,7 +1199,7 @@ footer .footer-bottom p {
 }
 
 .sgm-makine-liste .boxes-filter button[aria-expanded="true"] {
-    color: #44b276;
+  color: #44b276;
 }
 
 .sgm-makine-liste .boxes-filter {
@@ -1242,7 +1242,7 @@ footer .footer-bottom p {
 }
 
 .sgm-table {
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -1266,7 +1266,7 @@ footer .footer-bottom p {
   padding-bottom: 15px;
   padding-left: 13px;
   text-align: left;
-  background-color: #232F5F;
+  background-color: #232f5f;
   color: #fff;
   font-size: 12px;
   line-height: 17px;
@@ -1274,325 +1274,325 @@ footer .footer-bottom p {
 }
 
 .sgm-table td span {
-    margin-bottom: 0;
-    font-size: 12px;
-    line-height: 14.63px;
-    font-weight: 500;
-    color: #8E8E8E;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 14.63px;
+  font-weight: 500;
+  color: #8e8e8e;
 }
 
 .sgm-table td p {
-    margin-bottom: 0;
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 500;
-    color: #232323;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #232323;
 }
 
 .sgm-makine-liste .pagination .page-item .page-link {
-    background-color: transparent;
-    border-color: transparent;
-    color: #808080;
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 500;
-    border-radius: 4px;
-    margin: 0 5px;
+  background-color: transparent;
+  border-color: transparent;
+  color: #808080;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  margin: 0 5px;
 }
 
 .sgm-makine-liste .pagination .page-item .page-link.active {
-    background-color: #44B276;
-    color: #fff;
+  background-color: #44b276;
+  color: #fff;
 }
 
 .sgm-makine-liste .pagination .page-item .page-link span {
-    font-size: 24px;
-    line-height: 16px;
-    font-weight: 500;
+  font-size: 24px;
+  line-height: 16px;
+  font-weight: 500;
 }
 
 .sgm-makine-liste .listing-v2 .card .card-body {
-    margin: 0;
-    padding: 7px 17px;
+  margin: 0;
+  padding: 7px 17px;
 }
 
 .sgm-makine-liste .listing-v2 .card .card-body .card-date {
-    font-size: 8px;
-    line-height: 8.4px;
-    font-weight: 400;
-    color: #8e8e8e;
+  font-size: 8px;
+  line-height: 8.4px;
+  font-weight: 400;
+  color: #8e8e8e;
 }
 
 .sgm-makine-liste .listing-v2 .card .card-body .card-work {
-    font-size: 10px;
-    line-height: 12px;
-    font-weight: 400;
-    color: #8e8e8e;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #8e8e8e;
 }
 
 .sgm-makine-liste .listing-v2 .card .card-body .card-type {
-    font-size: 12px;
-    line-height: 14.63px;
-    font-weight: 500;
-    color: #232323;
+  font-size: 12px;
+  line-height: 14.63px;
+  font-weight: 500;
+  color: #232323;
 }
 
 .sgm-makine-liste .listing-v2 .card .card-body .card-features span {
-    font-size: 10px;
-    line-height: 10.5px;
-    font-weight: 500;
-    color: #8e8e8e;
+  font-size: 10px;
+  line-height: 10.5px;
+  font-weight: 500;
+  color: #8e8e8e;
 }
 
 .urun-detay .title {
-    font-size: 30px;
-    line-height: 36.7px;
-    font-weight: 500;
-    color: #232323;
+  font-size: 30px;
+  line-height: 36.7px;
+  font-weight: 500;
+  color: #232323;
 }
 
 .urun-detay .favoriye-ekle {
-    padding-bottom: 24px;
-    border-bottom: 1px solid #DADADA;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #dadada;
 }
 
 .urun-detay .favoriye-ekle a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .urun-detay .favoriye-ekle i {
-    font-size: 16x;
-    line-height: 16.8px;
-    margin-right: 8px;
-    color: #8E8E8E;
-    display: inline-block;
+  font-size: 16x;
+  line-height: 16.8px;
+  margin-right: 8px;
+  color: #8e8e8e;
+  display: inline-block;
 }
 
 .urun-detay .favoriye-ekle p {
-    font-size: 16x;
-    line-height: 16.8px;
-    font-weight: 400;
-    color: #8E8E8E;
-    display: inline-block;
+  font-size: 16x;
+  line-height: 16.8px;
+  font-weight: 400;
+  color: #8e8e8e;
+  display: inline-block;
 }
 
 .urun-detay .price h2 {
-    font-size: 48px;
-    line-height: 50.4px;
-    font-weight: 600;
-    color: #FF6D00;
-    margin-top: 41px;
+  font-size: 48px;
+  line-height: 50.4px;
+  font-weight: 600;
+  color: #ff6d00;
+  margin-top: 41px;
 }
 
 .urun-detay .card.bg-transparent {
-    margin-top: 19px;
+  margin-top: 19px;
 }
 
 .urun-detay .satici-card .first-line {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .urun-detay .satici-card .first-line .img img {
-    max-width: 70px;
-    max-height: 70px;
+  max-width: 70px;
+  max-height: 70px;
 }
 
 .urun-detay .satici-card .first-line .texts {
-    margin-left: 9px;
+  margin-left: 9px;
 }
 
 .urun-detay .satici-card .first-line .texts h6 {
-    font-size: 24px;
-    line-height: 29px;
-    font-weight: 700;
-    color: #232323;
-    margin-bottom: 0;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  color: #232323;
+  margin-bottom: 0;
 }
 
 .urun-detay .satici-card .first-line .texts p {
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 500;
-    color: #232323;
-    margin-bottom: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #232323;
+  margin-bottom: 0;
 }
 
 .urun-detay .satici-card .second-line {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
 }
 
 .urun-detay .satici-card .second-line p {
-    font-size: 18px;
-    line-height: 36px;
-    font-weight: 400;
-    color: #8E8E8E;
-    margin-bottom: 0;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #8e8e8e;
+  margin-bottom: 0;
 }
 
 .urun-detay .detay-button {
-    font-size: 20px;
-    font-weight: 24px;
-    font-weight: 700;
-    padding: 10px 0;
+  font-size: 20px;
+  font-weight: 24px;
+  font-weight: 700;
+  padding: 10px 0;
 }
 
 .urun-detay .detay-button i {
-    margin-right: 7px;
+  margin-right: 7px;
 }
 
 .urun-detay .urun-ozellikleri {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .urun-detay .urun-ozellikleri .item:not(:last-child) {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
 
 .urun-detay .urun-ozellikleri .item p {
-    font-size: 16px;
-    line-height: 16.8px;
-    font-weight: 500;
-    color: #000;
-    display: inline-block;
-    margin-bottom: 0;
+  font-size: 16px;
+  line-height: 16.8px;
+  font-weight: 500;
+  color: #000;
+  display: inline-block;
+  margin-bottom: 0;
 }
 
 .urun-detay .urun-ozellikleri .item span {
-    font-size: 16px;
-    line-height: 16.8px;
-    font-weight: 500;
-    color: #8e8e8e;
+  font-size: 16px;
+  line-height: 16.8px;
+  font-weight: 500;
+  color: #8e8e8e;
 }
 
 .urun-detay .detay-aciklama {
-    margin: 36px 0;
+  margin: 36px 0;
 }
 
 .urun-detay .detay-aciklama h5 {
-    font-size: 24px;
-    line-height: 25px;
-    font-weight: 600;
-    color: #232323;
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #232323;
 }
 
 .urun-detay .detay-aciklama p {
-    font-size: 16px;
-    line-height: 22.4px;
-    font-weight: 400;
-    color: #8E8E8E;
-    margin: 23px 0;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  color: #8e8e8e;
+  margin: 23px 0;
 }
 
 .urun-detay .detay-map h5 {
-    font-size: 24px;
-    line-height: 25px;
-    font-weight: 600;
-    color: #232323;
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #232323;
 }
 
 .urun-detay .detay-map iframe {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 .urun-detay-cards .card {
-    text-align: center;
-    padding: 20px;
-    display: block;
+  text-align: center;
+  padding: 20px;
+  display: block;
 }
 
 .urun-detay-cards .card-1 {
-    background-image: url(../images/detay-card-bg-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
+  background-image: url(../images/detay-card-bg-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
 .urun-detay-cards .card-2 {
-    background-image: url(../images/detay-cards-bg-2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
+  background-image: url(../images/detay-cards-bg-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
 }
 
 .urun-detay-cards .card-3 {
-    background-image: url(../images/detay-cards-bg-3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
+  background-image: url(../images/detay-cards-bg-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
 .urun-detay-cards .card .card-items {
-    width: 50%;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .urun-detay-cards .card .icon {
-    display: inline-block;
-    color: #fff;
-    padding: 9px 15px;
-    border-radius: 50%;
-    margin-bottom: 19px;
+  display: inline-block;
+  color: #fff;
+  padding: 9px 15px;
+  border-radius: 50%;
+  margin-bottom: 19px;
 }
 
 .urun-detay-cards .card .icon i {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .urun-detay-cards .card .title h5 {
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 700;
-    color: #20558A;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #20558a;
 }
 
 .urun-detay-cards .card .text p {
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 400;
-    color: #000;
-    margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 10px;
 }
 
 .urun-detay-cards .card .link a {
-    font-size: 10px;
-    line-height: 12px;
-    font-weight: 700;
-    color: #282828;
-    text-transform: uppercase;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 700;
+  color: #282828;
+  text-transform: uppercase;
 }
 
 .urun-detay-benzer-urunler .card .card-body .card-date {
-    font-size: 8px;
-    line-height: 8.4px;
-    font-weight: 400;
-    color: #8e8e8e;
+  font-size: 8px;
+  line-height: 8.4px;
+  font-weight: 400;
+  color: #8e8e8e;
 }
 
 .urun-detay-benzer-urunler .card .card-body .card-work {
-    font-size: 10px;
-    line-height: 12px;
-    font-weight: 400;
-    color: #8e8e8e;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #8e8e8e;
 }
 
 .urun-detay-benzer-urunler .card .card-body .card-type {
-    font-size: 12px;
-    line-height: 14.63px;
-    font-weight: 500;
-    color: #232323;
+  font-size: 12px;
+  line-height: 14.63px;
+  font-weight: 500;
+  color: #232323;
 }
 
 .urun-detay-benzer-urunler .card .card-body .card-features span {
-    font-size: 10px;
-    line-height: 10.5px;
-    font-weight: 500;
-    color: #8e8e8e;
+  font-size: 10px;
+  line-height: 10.5px;
+  font-weight: 500;
+  color: #8e8e8e;
 }
 
 .urun-detay-benzer-urunler .card .card-body .card-features i {
@@ -1611,10 +1611,10 @@ footer .footer-bottom p {
 }
 
 .urun-detay-benzer-urunler .title {
-    font-size: 24px;
-    line-height: 29px;
-    font-weight: 600;
-    color: #232323;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  color: #232323;
 }
 
 .urun-detay-benzer-urunler .owl-carousel .owl-nav {
@@ -1667,7 +1667,7 @@ footer .footer-bottom p {
   font-weight: 700;
   color: #232323;
   padding-bottom: 15px;
-  border-bottom: 1px solid #DADADA;
+  border-bottom: 1px solid #dadada;
 }
 
 .satici-detay .satici-card-comp .text {
@@ -1780,4 +1780,326 @@ footer .footer-bottom p {
 
 .satici-detay .product-card .card-body {
   padding: 1rem 1.25rem 0.5rem;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.login-left {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-left form {
+  width: 488px;
+}
+
+.login-left h4 {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #282828;
+  margin-bottom: 16px;
+}
+
+.login-left input {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #728899;
+  border-radius: 1px;
+  padding: .775rem .75rem;
+  height: calc(1.5em + 1.15rem + 2px);
+}
+
+.login-left .form-check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-left .form-check input {
+  margin-top: 0rem !important;
+}
+
+.login-left .beni-hatirla {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #282828;
+}
+
+.login-left .sifremi-unuttum {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #282828;
+  text-decoration: underline;
+  float: right;
+}
+
+.login-left .login-button {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #FBFBFB;
+  padding: 10px 100px;
+  margin: 16px 0;
+}
+
+.login-left .uye-ol p {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #282828;
+  margin-bottom: 3px;
+}
+
+.login-left .uye-ol a {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600;
+  color: #44B276;
+  text-decoration: underline;
+}
+
+.login-left .veya {
+  margin: 15px 0;
+  width:100%;
+  text-align:center; 
+  position: relative;
+}
+
+.login-left .veya h5 {
+  position:relative; 
+  padding:10px 20px; 
+  background: #f8f9fa;
+  display: inline-block;
+  z-index: 1;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 2px;
+}
+
+.login-left .veya::after {
+  content:'';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: #DADADA;
+  z-index:0;
+}
+
+.login-left .google-facebook-buttons button {
+  max-width: 285px;
+  margin: 12px auto;
+  padding: 10px 0;
+  background-color: transparent;
+  border: 1px solid #DADADA;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #282828;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-left .google-facebook-buttons button svg {
+  margin-right: 8px;
+  font-size: 12px;
+  fill: #44B276;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.login-left .login-logo {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 21px;
+  left: 0;
+  right: 0;
+}
+
+.login-left .login-logo img {
+  max-width: 124px;
+  max-height: 33px;
+}
+
+.login-right {
+  background-image: url(../images/login-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-right .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #44B276;
+  opacity: .5;
+}
+
+.login-right .text {
+  z-index: 99;
+  padding: 0 117px;
+  text-align: center;
+}
+
+.login-right .text h1 {
+  font-size: 42px;
+  line-height: 51px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.login-right .text h1 span {
+  font-size: 42px;
+  line-height: 51px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.login-right .text p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 38px;
+  margin-bottom: 0;
+}
+
+.register-checboxs .kabul-et {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #282828;
+}
+
+.register-checboxs .kabul-et a {
+  text-decoration: underline;
+  color: #282828;
+}
+
+.register-checboxs .form-check-input {
+  margin-top: -6px;
+}
+
+/* RESPONSIVE */
+
+.mobile-bar {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+  } */
+  .sm-d-none {
+    display: none !important;
+  }
+  .mobile-bar {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    padding: 15px 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+    border-top: 1px solid #dedede;
+  }
+  .mobile-bar .col {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .navbar #search-input {
+    max-width: 230px;
+  }
+  #main-carousel .carousel-inner {
+    height: 276px !important;
+  }
+  #main-carousel .carousel-inner .carousel-item {
+    height: 276px !important;
+  }
+  #main-carousel .carousel-inner .carousel-item img {
+    height: 276px !important;
+  }
+  .makine-al-sat {
+    margin-top: 0px;
+  }
+  .makine-al-sat h4 {
+    font-size: 16px;
+    line-height: 19.5px;
+    font-weight: 600;
+    margin-top: 12px;
+  }
+  .makine-al-sat .container {
+    padding: 25px 0;
+  }
+  .mobile-btn {
+    font-size: 14px !important;
+    line-height: 17.5px !important;
+    font-weight: 500 !important;
+  }
+  .sifir-gibi-vitrin {
+    margin-top: 30px;
+  }
+  .sifir-gibi-vitrin .title-button h4 {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+  }
+  .sifir-gibi-vitrin .card {
+    margin-bottom: 20px;
+  }
+  .sifir-gibi-vitrin .card .card-body .card-date {
+    font-size: 7px;
+    line-height: 7.35px;
+  }
+  .sifir-gibi-vitrin .card .card-body .card-work {
+    font-size: 8px;
+    line-height: 9.75px;
+  }
+  .sifir-gibi-vitrin .card .card-body .card-type {
+    font-size: 10px;
+    line-height: 12.19px;
+  }
+}
+
+.mobile-bar .menu-icon {
+  max-width: 20px;
+  max-height: 20px;
+  color: #44b276;
+}
+
+.mobile-bar p {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #44b276;
 }
