@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sıfır Gibi Makina</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="section bg-light">
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#" class="topbar-item">Sıfır Gibi Ekspertiz</a>
+                        <a href="#" class="topbar-item">Sıfır Gibi Servis</a>
+                        <a href="#" class="topbar-item">Sıfır Gibi Nakliye</a>
+                        <a href="#" class="topbar-item">Hakkımızda</a>
+                        <a href="#" class="topbar-item">Hizmetlerimiz</a>
+                        <a href="#" class="topbar-item">Blog</a>
+                        <a href="#" class="topbar-item">İletişim</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <input id="search-input" class="form-control rounded-0" type="search" placeholder="Marka, Model veya İlan No ile Arayın" aria-label="Search">
+                    <button class="btn btn-secondary rounded-0 my-2 my-sm-0" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                </div>
+                <div class="nav-login-success">
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                          Seden Sav
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#"><i class="fas fa-user"></i> Profilim</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-question"></i> Makinem Ne Eder?</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-tag"></i> Makine Sat</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-cog"></i> Makinelerim</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-list-ul"></i> İhalelerim</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-wallet"></i> Ödeme Bildirimi</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-star"></i> Favorilerim</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-comment-alt"></i> Mesajlarım</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Çıkış Yap</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="profilim accordion" id="profil-accordion">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="profil-sidebar">
+                            <div class="card acc-card">
+                                <div class="card-header" id="headingOne">
+                                  <h2 class="mb-0">
+                                    <button class="btn btn-link text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                      Profilim
+                                    </button>
+                                  </h2>
+                                </div>
+                            </div>
+                            <div class="card acc-card">
+                                <div class="card-header" id="headingTwo">
+                                  <h2 class="mb-0">
+                                    <button class="btn btn-link text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Makinem Ne Eder?
+                                    </button>
+                                  </h2>
+                                </div>
+                            </div>
+                            <div class="card acc-card">
+                                <div class="card-header" id="headingThree">
+                                  <h2 class="mb-0">
+                                    <button class="btn btn-link text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Makine Sat
+                                    </button>
+                                  </h2>
+                                </div>
+                            </div>
+                            <div class="card acc-card">
+                                <div class="card-header" id="headingFour">
+                                  <h2 class="mb-0">
+                                    <button class="btn btn-link text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                      Makinelerim
+                                    </button>
+                                  </h2>
+                                </div>
+                            </div>
+                            <div class="card acc-card">
+                                <div class="card-header" id="headingFive">
+                                  <h2 class="mb-0">
+                                    <button class="btn btn-link text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                      İhalelerim
+                                    </button>
+                                  </h2>
+                                </div>
+                            </div>
+                            <div class="card acc-card">
+                                <div class="card-header" id="headingSix">
+                                  <h2 class="mb-0">
+                                    <button class="btn btn-link text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Ödeme Bildirimi
+                                    </button>
+                                  </h2>
+                                </div>
+                            </div>
+                            <div class="card acc-card">
+                                <div class="card-header" id="headingSeven">
+                                  <h2 class="mb-0">
+                                    <button class="btn btn-link text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                      Favorilerim
+                                    </button>
+                                  </h2>
+                                </div>
+                            </div>
+                            <div class="card acc-card">
+                                <div class="card-header" id="headingEight">
+                                  <h2 class="mb-0">
+                                    <button class="btn btn-link text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                        Mesajlarım
+                                    </button>
+                                  </h2>
+                                </div>
+                            </div>
+                            <div class="card acc-card">
+                                <div class="card-header">
+                                  <h2 class="mb-0">
+                                    <button class="btn btn-link text-left" type="button">
+                                        Çıkış Yap
+                                    </button>
+                                  </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9 profil-right-box">
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#profil-accordion">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <h5 class="form-title">
+                                        Kişisel Bilgiler
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col-md-6 pr-1">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="ad" placeholder="Adınız">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 pl-1">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="soyad" placeholder="Soyadınız">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 pr-1">
+                                            <div class="form-group">
+                                                <input type="date" class="form-control" id="dogum-tarihi" value="1996-01-17" placeholder="Doğum Tarihi">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 pl-1">
+                                            <div class="form-group">
+                                                <input type="number" class="form-control" id="tc" placeholder="T.C. Kimlik No">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <h5 class="form-title">
+                                        İletişim Bilgileri
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col-md-6 pr-1">
+                                            <div class="form-group">
+                                                <input type="number" class="form-control" id="telefon-no" placeholder="Telefon Numarası">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 pl-1">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="eposta" placeholder="E-Posta">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 pr-1">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="il" placeholder="İl">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 pl-1">
+                                            <div class="form-group">
+                                                <input type="number" class="form-control" id="ilce" placeholder="İlçe">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="adres" rows="6" placeholder="Adres"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <h5 class="form-title">
+                                        Kullanıcı Şifresi
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col-md-6 pr-1">
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="sifre" placeholder="Şifre">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 pl-1">
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="sifre-tekrar" placeholder="Şifre Tekrarı">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-success kaydet-button">Kaydet</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#profil-accordion">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <h5 class="form-title">
+                                        Makine Özellikleri
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col-md-6 pr-1">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="makina-basligi" placeholder="Makine Başlığı">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 pl-1">
+                                            <div class="form-group">
+                                                <select class="form-control" id="makine-turu">
+                                                    <option>Makine Türü</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <i class="fa fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 pr-1">
+                                            <div class="form-group">
+                                                <select class="form-control" id="makine-turu">
+                                                    <option>Makine Yılı</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <i class="fa fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 px-1">
+                                            <div class="form-group">
+                                                <select class="form-control" id="makine-turu">
+                                                    <option>Makine Markası</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <i class="fa fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pl-1">
+                                            <div class="form-group">
+                                                <select class="form-control" id="makine-turu">
+                                                    <option>Makine Modeli</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <i class="fa fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="aciklama" rows="6" placeholder="Açıklama"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 pr-1">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="ongorulen-fiyat" placeholder="Öngördüğünüz Fiyat">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 pl-1">
+                                            <div class="form-group">
+                                                <select class="form-control" id="makine-turu">
+                                                    <option>TL</option>
+                                                    <option>USD</option>
+                                                    <option>EURO</option>
+                                                </select>
+                                                <i class="fa fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <h5 class="form-title">
+                                        Ürün Fotoğrafları
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="input-group mb-0">
+                                                <div class="custom-file">
+                                                  <input type="file" class="custom-file-input" id="urun-fotografi" aria-describedby="urun-fotografi">
+                                                  <label class="custom-file-label" for="urun-fotografi">Dosya Seç</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-success kaydet-button">Makinemi Değerle</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#profil-accordion">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <h5 class="form-title">
+                                        Makine Özellikleri
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col-md-6 pr-1">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="makine-basligi" placeholder="Makine Başlığı">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 pl-1">
+                                            <div class="form-group">
+                                                <select class="form-control" id="makine-turu">
+                                                    <option>Makine Türü</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <i class="fa fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 pr-1">
+                                            <div class="form-group">
+                                                <select class="form-control" id="makine-turu">
+                                                    <option>Makine Yılı</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <i class="fa fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 px-1">
+                                            <div class="form-group">
+                                                <select class="form-control" id="makine-turu">
+                                                    <option>Makine Markası</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <i class="fa fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pl-1">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="makine-modeli" placeholder="Makine Modeli">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 pr-1">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="calisma-saati" placeholder="Çalışma Saati">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 px-1">
+                                            <div class="form-group">
+                                                <select class="form-control" id="il">
+                                                    <option>İl</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <i class="fa fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pl-1">
+                                            <div class="form-group">
+                                                <select class="form-control" id="ilce">
+                                                    <option>İlçe</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                                <i class="fa fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="aciklama" rows="6" placeholder="Açıklama"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pr-1">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="fiyat" placeholder="Fiyat">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 pl-1">
+                                            <div class="form-group">
+                                                <select class="form-control" id="makine-turu">
+                                                    <option>TL</option>
+                                                    <option>USD</option>
+                                                    <option>EURO</option>
+                                                </select>
+                                                <i class="fa fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <h5 class="form-title">
+                                        Vitrin Fotoğrafı
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="input-group mb-0">
+                                                <div class="custom-file">
+                                                  <input type="file" class="custom-file-input" id="urun-fotografi" aria-describedby="urun-fotografi">
+                                                  <label class="custom-file-label" for="urun-fotografi">Dosya Seç</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <h5 class="form-title">
+                                        Satış Temsilcisi
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col-md-4 pr-1">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="ad-soyad" placeholder="Ad Soyad">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 px-1">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="email" placeholder="E-Posta">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pl-1">
+                                            <div class="form-group">
+                                                <input type="number" class="form-control" id="tel-no" placeholder="Telefon Numarası">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <h5 class="form-title">
+                                        Eksper Bilgiler
+                                    </h5>
+                                    <div class="row exper-talep">
+                                        <div class="col-md-12">
+                                            <p>
+                                                Makinanıza ait eksper bilgilerini aşağıda işaretleyebilirsiniz. Dilerseniz sizin adınıza ekspertiz hizmeti verebiliriz. Ekspertiz hizmeti almak için şağıdaki seçeneği işaretleyebilirsiniz.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group form-check mb-0">
+                                                <input type="checkbox" class="form-check-input" id="exper-talep">
+                                                <label class="form-check-label" for="exper-talep">
+                                                    Eksper Talep Etmek İstiyorum.
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3 exper-table">
+                                    <div class="card general-card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-6">
+                                                        <p>C Eksen Rulmanları</p>
+                                                    </div>
+                                                    <div class="col-md-5 offset-1">
+                                                        <div class="form-group mb-0">
+                                                            <select class="form-control" id="makine-turu">
+                                                                <option>Seçiniz</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                            <i class="fa fa-chevron-down select-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-6">
+                                                        <p>Ek Döküman ve Kitapçıkları </p>
+                                                    </div>
+                                                    <div class="col-md-5 offset-1">
+                                                        <div class="form-group mb-0">
+                                                            <select class="form-control" id="makine-turu">
+                                                                <option>Seçiniz</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                            <i class="fa fa-chevron-down select-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-6">
+                                                        <p>Eksen Dönümleri</p>
+                                                    </div>
+                                                    <div class="col-md-5 offset-1">
+                                                        <div class="form-group mb-0">
+                                                            <select class="form-control" id="makine-turu">
+                                                                <option>Seçiniz</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                            <i class="fa fa-chevron-down select-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-6">
+                                                        <p>Eksen Yağlamaları</p>
+                                                    </div>
+                                                    <div class="col-md-5 offset-1">
+                                                        <div class="form-group mb-0">
+                                                            <select class="form-control" id="makine-turu">
+                                                                <option>Seçiniz</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                            <i class="fa fa-chevron-down select-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-6">
+                                                        <p>El Çarkı Durumu</p>
+                                                    </div>
+                                                    <div class="col-md-5 offset-1">
+                                                        <div class="form-group mb-0">
+                                                            <select class="form-control" id="makine-turu">
+                                                                <option>Seçiniz</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                            <i class="fa fa-chevron-down select-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-6">
+                                                        <p>C Eksen Rulmanları</p>
+                                                    </div>
+                                                    <div class="col-md-5 offset-1">
+                                                        <div class="form-group mb-0">
+                                                            <select class="form-control" id="makine-turu">
+                                                                <option>Seçiniz</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                            <i class="fa fa-chevron-down select-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-6">
+                                                        <p>Ek Döküman ve Kitapçıkları </p>
+                                                    </div>
+                                                    <div class="col-md-5 offset-1">
+                                                        <div class="form-group mb-0">
+                                                            <select class="form-control" id="makine-turu">
+                                                                <option>Seçiniz</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                            <i class="fa fa-chevron-down select-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-6">
+                                                        <p>Eksen Dönümleri</p>
+                                                    </div>
+                                                    <div class="col-md-5 offset-1">
+                                                        <div class="form-group mb-0">
+                                                            <select class="form-control" id="makine-turu">
+                                                                <option>Seçiniz</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                            <i class="fa fa-chevron-down select-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-6">
+                                                        <p>C Eksen Rulmanları</p>
+                                                    </div>
+                                                    <div class="col-md-5 offset-1">
+                                                        <div class="form-group mb-0">
+                                                            <select class="form-control" id="makine-turu">
+                                                                <option>Seçiniz</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                            <i class="fa fa-chevron-down select-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-6">
+                                                        <p>Ek Döküman ve Kitapçıkları </p>
+                                                    </div>
+                                                    <div class="col-md-5 offset-1">
+                                                        <div class="form-group mb-0">
+                                                            <select class="form-control" id="makine-turu">
+                                                                <option>Seçiniz</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                            <i class="fa fa-chevron-down select-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-6">
+                                                        <p>Eksen Dönümleri</p>
+                                                    </div>
+                                                    <div class="col-md-5 offset-1">
+                                                        <div class="form-group mb-0">
+                                                            <select class="form-control" id="makine-turu">
+                                                                <option>Seçiniz</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                            <i class="fa fa-chevron-down select-icon"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mb-3 mt-4">
+                                    <h5 class="form-title">
+                                        İhale Bilgileri
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p class="p-label">Makineniz İhalede Satıldı Mı?</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <select class="form-control" id="makine-turu">
+                                                    <option>TL</option>
+                                                    <option>USD</option>
+                                                    <option>EURO</option>
+                                                </select>
+                                                <i class="fa fa-chevron-down select-icon"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <h5 class="form-title">
+                                        Ürün Açıklaması
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="aciklama" rows="6" placeholder="Açıklama"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <h5 class="form-title">
+                                        Ürün Fotoğrafları
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="input-group mb-0">
+                                                <div class="custom-file">
+                                                  <input type="file" class="custom-file-input" id="urun-fotografi" aria-describedby="urun-fotografi">
+                                                  <label class="custom-file-label" for="urun-fotografi">Dosya Seç</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-success kaydet-button">Makinemi Değerlendir</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#profil-accordion">
+                            <div class="card-body">
+                                <div class="profil-ilanlarım urun-detay bg-light py-3">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-7">
+                                                <div class="owl-carousel owl-theme" id="urun-detay-slider">
+                                                    <div class="item" data-hash="one">
+                                                        <img src="images/urun-detay-slider-lg.png" alt="">
+                                                    </div>
+                                                    <div class="item" data-hash="two">
+                                                        <img src="images/urun-detay-slider-lg.png" alt="">
+                                                    </div>
+                                                    <div class="item" data-hash="three">
+                                                        <img src="images/urun-detay-slider-lg.png" alt="">
+                                                    </div>
+                                                    <div class="item" data-hash="four">
+                                                        <img src="images/urun-detay-slider-lg.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="mt-3">
+                                                    <div class="row px-2">
+                                                        <div class="col-md-3 px-1">
+                                                            <a class="button secondary url" href="#one">
+                                                                <img class="img-fluid" src="images/slider-url-1.png" alt="">
+                                                            </a> 
+                                                        </div>
+                                                        <div class="col-md-3 px-1">
+                                                            <a class="button secondary url" href="#two">
+                                                                <img class="img-fluid" src="images/slider-url-2.png" alt="">
+                                                            </a> 
+                                                        </div>
+                                                        <div class="col-md-3 px-1">
+                                                            <a class="button secondary url" href="#three">
+                                                                <img class="img-fluid" src="images/slider-url-1.png" alt="">
+                                                            </a> 
+                                                        </div>
+                                                        <div class="col-md-3 px-1">
+                                                            <a class="button secondary url" href="#four">
+                                                                <img class="img-fluid" src="images/slider-url-2.png" alt="">
+                                                            </a> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <h3 class="title">Robokut <br> 45 A Plazma Kesim Makinesi</h3>
+                                                <div class="favoriye-ekle pb-3">
+                                                    <a href="#">
+                                                        <i class="far fa-star"></i>
+                                                        <p class="mb-0">Favori İlanlarına Ekle</p>
+                                                    </a>
+                                                </div>
+                                                <div class="price">
+                                                    <h2>₺ 140.000</h2>
+                                                </div>
+                                                <div class="card bg-transparent">
+                                                    <div class="card-body p-3">
+                                                        <div class="satici-card">
+                                                            <div class="first-line">
+                                                                <div class="img">
+                                                                    <img src="images/yeditepe-logo.png" alt="">
+                                                                </div>
+                                                                <div class="texts">
+                                                                    <h6>Yeditepe Makina</h6>
+                                                                    <p>Nurul Yılmaz</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="second-line">
+                                                                <p>İş: 0212 548 69 25</p>
+                                                                <p>Cep: 05** *** ****</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button class="btn btn-success btn-block detay-button my-3">
+                                                    <i class="fas fa-phone-alt"></i> Ara
+                                                </button>
+                                                <button class="btn btn-outline-success btn-block detay-button">
+                                                    <i class="far fa-envelope"></i> Mesaj Gönder
+                                                </button>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="card mt-4">
+                                                    <div class="card-body">
+                                                        <div class="urun-ozellikleri">
+                                                            <div>
+                                                                <div class="item">
+                                                                    <p>Marka: </p>
+                                                                    <span>Star</span>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <p>Model: </p>
+                                                                    <span>Robocut L3</span>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <p>Tür: </p>
+                                                                    <span>CNC İşleme Makinesi</span>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <p>Model Yılı: </p>
+                                                                    <span>2008</span>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <p>Çalışma Saati:: </p>
+                                                                    <span>1200 Saat</span>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="item">
+                                                                    <p>Marka: </p>
+                                                                    <span>Star</span>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <p>Model: </p>
+                                                                    <span>Robocut L3</span>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <p>Tür: </p>
+                                                                    <span>CNC İşleme Makinesi</span>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <p>Model Yılı: </p>
+                                                                    <span>2008</span>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <p>Çalışma Saati:: </p>
+                                                                    <span>1200 Saat</span>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="item">
+                                                                    <p>Marka: </p>
+                                                                    <span>Star</span>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <p>Model: </p>
+                                                                    <span>Robocut L3</span>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <p>Tür: </p>
+                                                                    <span>CNC İşleme Makinesi</span>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <p>Model Yılı: </p>
+                                                                    <span>2008</span>
+                                                                </div>
+                                                                <div class="item">
+                                                                    <p>Çalışma Saati:: </p>
+                                                                    <span>1200 Saat</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 detay-aciklama">
+                                                <h5 class="title">Açıklama</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                </p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-12 detay-map">
+                                                <h5 class="title">Konum</h5>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24154.411190231516!2d29.569466!3d40.821343!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3fe8f38f064571f2!2sS%C4%B1f%C4%B1rgibi%20Makine%20Sanayi%20ve%20Tic.%20Ltd.%20%C5%9Eti.!5e0!3m2!1str!2str!4v1640275911871!5m2!1str!2str" width="100%" height="277" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                            </div>
+                                            <div class="col-md-12 ilanlarım-inceleniyor">
+                                                <a href="#">İNCELENİYOR</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#profil-accordion">
+                            <div class="card-body bg-transparent d-flex justify-content-center">
+                                <div class="profil-ihalelerim text-center">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4>Üzgünüz, henüz hiç ilanın yok.</h4>
+                                                <button class="btn btn-success">
+                                                    İlan Ver
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#profil-accordion">
+                            <div class="card-body">
+                                ÖDEME BİLDİRİMİ
+                            </div>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#profil-accordion">
+                            <div class="card-body">
+                                <table class="sgm-table" id="headingOne">
+                                    <tr>
+                                      <th>İlan Görseli</th>
+                                      <th>İlan Açıklaması</th>
+                                      <th>Marka</th>
+                                      <th>
+                                        Model/ <br />
+                                        Model Yılı
+                                      </th>
+                                      <th>Fiyat</th>
+                                      <th></th>
+                                    </tr>
+                                    <tr class="bg-white">
+                                      <td>
+                                        <img
+                                          class="img-fluid w-100"
+                                          src="images/table-img.png"
+                                          alt=""
+                                        />
+                                      </td>
+                                      <td>
+                                        <span>CNC İşleme Merkezi</span>
+                                        <p>
+                                          Robokut 45 A Plazma Kesim Makinesi
+                                        </p>
+                                      </td>
+                                      <td>
+                                        <p>STAR</p>
+                                      </td>
+                                      <td>
+                                        <p>Kitamura</p>
+                                      </td>
+                                      <td>
+                                        <p class="bold">₺210.000</p>
+                                      </td>
+                                      <td><i class="fas fa-trash"></i></td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                      <td>
+                                        <img
+                                          class="img-fluid w-100"
+                                          src="images/table-img.png"
+                                          alt=""
+                                        />
+                                      </td>
+                                      <td>
+                                        <span>CNC İşleme Merkezi</span>
+                                        <p>
+                                          Robokut 45 A Plazma Kesim Makinesi
+                                        </p>
+                                      </td>
+                                      <td>
+                                        <p>STAR</p>
+                                      </td>
+                                      <td>
+                                        <p>Kitamura</p>
+                                      </td>
+                                      <td>
+                                        <p class="bold">₺210.000</p>
+                                      </td>
+                                      <td><i class="fas fa-trash"></i></td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                      <td>
+                                        <img
+                                          class="img-fluid w-100"
+                                          src="images/table-img.png"
+                                          alt=""
+                                        />
+                                      </td>
+                                      <td>
+                                        <span>CNC İşleme Merkezi</span>
+                                        <p>
+                                          Robokut 45 A Plazma Kesim Makinesi
+                                        </p>
+                                      </td>
+                                      <td>
+                                        <p>STAR</p>
+                                      </td>
+                                      <td>
+                                        <p>Kitamura</p>
+                                      </td>
+                                      <td>
+                                        <p class="bold">₺210.000</p>
+                                      </td>
+                                      <td><i class="fas fa-trash"></i></td>
+                                    </tr>
+                                  </table>
+                            </div>
+                        </div>
+                        <div id="collapseEight" class="collapse show" aria-labelledby="headingEight" data-parent="#profil-accordion">
+                            <div class="card-body">
+                                <div class="mesajlarim">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h5 class="title">Mesajlarım</h5>
+                                            </div>
+                                            <div class="col-md-12 main-card mb-2">
+                                                <div class="row align-self-stretch">
+                                                    <div class="col-md-3 px-2">
+                                                        <div class="left-box h-100">
+                                                            <img class="img-fluid w-100 h-100" src="images/profil-mesajlarim.png" alt="image">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 px-2">
+                                                        <div class="center-box h-100 border-left border-right">
+                                                            <p>CNC İşleme Merkezi</p>
+                                                            <h5>Robokut 45 A Plazma Kesim Makinesi</h5>
+                                                            <div class="spans">
+                                                                <span>Furkan Can Kurgusuz</span>
+                                                                <span><i class="fas fa-circle"></i> 11 Aralık 2021</span>
+                                                                <span><i class="fas fa-circle"></i> 23.16</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3 px-2">
+                                                        <div class="right-box h-100">
+                                                            <p>₺ 210.000</p>
+                                                            <div class="dropdown-dots">
+                                                                <div class="dropdown">
+                                                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dotsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <i class="fas fa-ellipsis-h"></i>
+                                                                    </button>
+                                                                    <div class="dropdown-menu" aria-labelledby="dotsDropdown">
+                                                                      <a class="dropdown-item" href="#">Mesajları Sil</a>
+                                                                      <a class="dropdown-item" href="#">Kullanıcıyı Engelle</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 main-card mb-2">
+                                                <div class="row align-self-stretch">
+                                                    <div class="col-md-3 px-2">
+                                                        <div class="left-box h-100">
+                                                            <img class="img-fluid w-100 h-100" src="images/profil-mesajlarim.png" alt="image">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 px-2">
+                                                        <div class="center-box h-100 border-left border-right">
+                                                            <p>CNC İşleme Merkezi</p>
+                                                            <h5>Robokut 45 A Plazma Kesim Makinesi</h5>
+                                                            <div class="spans">
+                                                                <span>Furkan Can Kurgusuz</span>
+                                                                <span><i class="fas fa-circle"></i> 11 Aralık 2021</span>
+                                                                <span><i class="fas fa-circle"></i> 23.16</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3 px-2">
+                                                        <div class="right-box h-100">
+                                                            <p>₺ 210.000</p>
+                                                            <div class="dropdown-dots">
+                                                                <div class="dropdown">
+                                                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dotsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <i class="fas fa-ellipsis-h"></i>
+                                                                    </button>
+                                                                    <div class="dropdown-menu" aria-labelledby="dotsDropdown">
+                                                                      <a class="dropdown-item" href="#">Mesajları Sil</a>
+                                                                      <a class="dropdown-item" href="#">Kullanıcıyı Engelle</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 main-card">
+                                                <div class="row align-self-stretch">
+                                                    <div class="col-md-3 px-2">
+                                                        <div class="left-box h-100">
+                                                            <img class="img-fluid w-100 h-100" src="images/profil-mesajlarim.png" alt="image">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 px-2">
+                                                        <div class="center-box h-100 border-left border-right">
+                                                            <p>CNC İşleme Merkezi</p>
+                                                            <h5>Robokut 45 A Plazma Kesim Makinesi</h5>
+                                                            <div class="spans">
+                                                                <span>Furkan Can Kurgusuz</span>
+                                                                <span><i class="fas fa-circle"></i> 11 Aralık 2021</span>
+                                                                <span><i class="fas fa-circle"></i> 23.16</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3 px-2">
+                                                        <div class="right-box h-100">
+                                                            <p>₺ 210.000</p>
+                                                            <div class="dropdown-dots">
+                                                                <div class="dropdown">
+                                                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dotsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <i class="fas fa-ellipsis-h"></i>
+                                                                    </button>
+                                                                    <div class="dropdown-menu" aria-labelledby="dotsDropdown">
+                                                                      <a class="dropdown-item" href="#">Mesajları Sil</a>
+                                                                      <a class="dropdown-item" href="#">Kullanıcıyı Engelle</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <footer>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-3 left-column">
+                        <img src="images/logo-footer.png" alt="">
+                        <h6>Sıfırgibimakine.com</h6>
+                        <p>Çerkeşliosb Mah. İmes-17 Cad. Küçük Sanayi Sitesi D5 No: 12 İç Kapı No: 1 Dilovası – Kocaeli</p>
+                    </div>
+                    <div class="col-md-3 footer-links">
+                        <h6>Satış</h6>
+                        <a href="#">
+                            <p>İlan Ver</p>
+                        </a>
+                        <a href="#">
+                            <p>İlanları Yönet</p>
+                        </a>
+                        <a href="#">
+                            <p>İlan Ayırt</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 footer-links">
+                        <h6>Kurumsal</h6>
+                        <a href="#">
+                            <p>Bilgi Güvenlik Politikası</p>
+                        </a>
+                        <a href="#">
+                            <p>KVKK</p>
+                        </a>
+                        <a href="#">
+                            <p>Çerez Politikası</p>
+                        </a>
+                        <a href="#">
+                            <p>SSS</p>
+                        </a>
+                        <a href="#">
+                            <p>Bakım</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 footer-links">
+                        <h6>Sosyal Medya</h6>
+                        <a href="#">
+                            <p>Facebook</p>
+                        </a>
+                        <a href="#">
+                            <p>Instagram</p>
+                        </a>
+                        <a href="#">
+                            <p>Twitter</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container footer-bottom">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Tüm Hakları © 2021, Sıfırgibimakine.com </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
