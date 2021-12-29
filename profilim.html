@@ -21,10 +21,10 @@
                         <a href="#" class="topbar-item">Sıfır Gibi Ekspertiz</a>
                         <a href="#" class="topbar-item">Sıfır Gibi Servis</a>
                         <a href="#" class="topbar-item">Sıfır Gibi Nakliye</a>
-                        <a href="#" class="topbar-item">Hakkımızda</a>
+                        <a href="hakkimizda.html" class="topbar-item">Hakkımızda</a>
                         <a href="#" class="topbar-item">Hizmetlerimiz</a>
-                        <a href="#" class="topbar-item">Blog</a>
-                        <a href="#" class="topbar-item">İletişim</a>
+                        <a href="blog.html" class="topbar-item">Blog</a>
+                        <a href="iletisim.html" class="topbar-item">İletişim</a>
                     </div>
                 </div>
             </div>
@@ -148,7 +148,7 @@
                             <div class="card acc-card">
                                 <div class="card-header">
                                   <h2 class="mb-0">
-                                    <button class="btn btn-link text-left" type="button">
+                                    <button class="btn btn-link text-left" type="button" data-toggle="modal" data-target="#cikisYapModal" >
                                         Çıkış Yap
                                     </button>
                                   </h2>
@@ -1191,6 +1191,28 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Cikis Yap Modal -->
+            <div class="modal fade cikis-yap-modal" id="cikisYapModal" tabindex="-1" aria-labelledby="examplecikisYapModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="modal-check-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div class="modal-text">
+                                <p>Hesabınızdan başarıyla çıkış yaptınız. Yakın zamanda tekrar görüşmek üzere!</p>
+                            </div>
+                            <div class="modal-button">
+                                <a href="index.html">
+                                    <button class="btn btn-success">Anasayfa</button>
+                                </a>
                             </div>
                         </div>
                     </div>

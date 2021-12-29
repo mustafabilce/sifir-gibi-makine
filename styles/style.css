@@ -56,6 +56,10 @@ body {
   background-color: transparent !important;
 }
 
+.bg-green-transparent {
+  background-color: #F2F7F4 !important;
+}
+
 .text-12-14-500 {
   font-size: 12px;
   line-height: 14px;
@@ -101,6 +105,12 @@ body {
   font-size: 12px;
   line-height: 32px;
   color: #808080;
+  transition: .3s;
+}
+
+.topbar-item:hover {
+  color: #28a745;
+  text-decoration: none;
 }
 
 .topbar-item:not(:last-child) {
@@ -127,7 +137,7 @@ body {
   height: 38px;
   width: 109px;
   border-radius: 0;
-  padding: 10px auto;
+  padding: 10px 0;
 }
 
 #main-carousel {
@@ -2409,6 +2419,476 @@ footer .footer-bottom p {
 .profilim .mesajlarim .dropdown-dots .dropdown-menu .dropdown-item:hover {
   background-color: #44B276;
 }
+
+.profilim .cikis-yap-modal .modal-check-icon {
+  max-width: 47px;
+  max-height: 47px;
+  margin: auto;
+}
+
+.profilim .cikis-yap-modal .modal-check-icon svg {
+  color: #44B276;
+}
+
+.profilim .cikis-yap-modal .modal-text p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 24px;
+  margin-bottom: 36px;
+}
+
+.profilim .cikis-yap-modal .modal-button button {
+  width: 285px;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px 26px;
+}
+
+.profilim .cikis-yap-modal .modal-body {
+  text-align: center;
+  padding: 45px;
+}
+
+.blog .one-cikanlar {
+  padding: 40px 0;
+}
+
+.blog .one-cikanlar .title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  color: #202020;
+  margin-bottom: 24px;
+}
+
+.blog .one-cikanlar .card .card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 12px;
+  background-color: rgba(68, 178, 118, 0.8);
+}
+
+.blog .one-cikanlar .card .card-body p {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.blog .one-cikanlar .card .card-body span {
+  font-size: 9px;
+  line-height: 11px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.blog .blog-main {
+  padding: 50px 0;
+}
+
+.blog .blog-main .card {
+  background-color: transparent;
+  border: none;
+  padding: 50px 0;
+  border-bottom: 1px solid #DADADA;
+}
+
+.blog .blog-main .card:last-child {
+  border-bottom: none;
+}
+
+.blog .blog-main .card .card-body {
+  padding: 0 30px;
+}
+
+.blog .blog-main .card .card-body .blog-title {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #232F5F;
+}
+
+.blog .blog-main .card .card-body .blog-date {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #0E2435;
+}
+
+.blog .blog-main .card .card-body .blog-text {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #0E2435;
+  margin-top: 10px;
+}
+
+.blog .blog-main .card .card-body .blog-link {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #44B276;
+  text-decoration: underline;
+}
+
+.blog .blog-main .blog-sidebar .input-group {
+  margin-bottom: 38px;
+}
+
+.blog .blog-main .blog-sidebar .input-group input { 
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #232F5F;
+  border-radius: 0;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #232F5F;
+}
+
+.blog .blog-main .blog-sidebar .input-group .input-group-prepend span { 
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #232F5F;
+}
+
+.blog .blog-main .blog-sidebar .en-cok-okunanlar .title {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #232F5F;
+}
+
+.blog .blog-main .blog-sidebar .en-cok-okunanlar .card {
+  padding: 30px 0;
+  border-bottom: 1px solid #DADADA;
+}
+
+.blog .blog-main .blog-sidebar .en-cok-okunanlar .card:last-child {
+  border-bottom: none;
+}
+
+.blog .blog-main .blog-sidebar .en-cok-okunanlar .card .card-body {
+  padding: 0px 15px;
+}
+
+.blog .blog-main .blog-sidebar .en-cok-okunanlar .blog-title-small {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  color: #232F5F;
+}
+
+.blog .blog-main .blog-sidebar .en-cok-okunanlar .blog-date-small {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #0E2435;
+}
+
+.blog .blog-main .blog-detay .title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #44B276;
+  margin-bottom: 16px;
+}
+
+.blog .blog-main .blog-detay .date {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #20558A;
+}
+
+.blog .blog-main .blog-detay .blog-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #0E2435;
+}
+
+.blog .blog-main .blog-detay .blog-subtitle {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #232F5F;
+  margin: 36px 0;
+}
+
+.blog .blog-main .blog-detay img {
+  margin: 29px 0;
+}
+
+.hakkimizda {
+  padding: 53px 0;
+}
+
+.hakkimizda .hakkimizda-title {
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 700;
+  color: #44B276;
+}
+
+.hakkimizda .hakkimizda-title span {
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 500;
+  color: #44B276;
+}
+
+.hakkimizda .hakkimizda-subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #0E2435;
+}
+
+.hakkimizda .hakkimizda-img {
+  margin: 50px 0 -140px;
+}
+
+.hakkimizda h3.title {
+  font-size: 42px;
+  line-height: 51px;
+  font-weight: 600;
+  color: #282828;
+  text-align: center;
+}
+
+.hakkimizda .sgm-degerler {
+  padding: 200px 0 150px;
+}
+
+.hakkimizda .hakkimizda-other-text {
+  padding: 92px 0 0;
+}
+
+.hakkimizda .hakkimizda-other-text .green-card {
+  padding: 30px;
+  background-color: #44B276;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: -180px;
+}
+
+.hakkimizda .hakkimizda-other-text .green-card h5.title {
+  font-size: 42px;
+  line-height: 51px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 29px;
+}
+
+.hakkimizda .hakkimizda-other-text .green-card .text-line {
+  position: absolute;
+  height: 36px;
+  width: 2px;
+  background-color: #232F5F;
+}
+
+.hakkimizda .hakkimizda-other-text .green-card p.text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+.hakkimizda .hakkimizda-other-text .bottom-text p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #0E2435;
+  margin-bottom: 50px;
+}
+
+.sikca-sorulan-sorular .sss-accordion .card-header {
+  background-color: #EEEEEE;
+}
+
+.sikca-sorulan-sorular .sss-accordion .card-header button {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #282828;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sikca-sorulan-sorular .sss-accordion .card-header button i {
+  transition: .3s;
+}
+
+.sikca-sorulan-sorular .sss-accordion .card-header button[aria-expanded="true"] i {
+  transform: rotate(180deg);
+  transition: .3s;
+}
+
+.sikca-sorulan-sorular .sss-accordion .card-header button:hover {
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+.sikca-sorulan-sorular .sss-accordion .card-header button:focus {
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+.sikca-sorulan-sorular .sss-accordion .card-body {
+  background-color: #F5F5F5;
+  border: none;
+  border-top: 1px solid #DADADA;
+}
+
+.sikca-sorulan-sorular .sss-accordion .card-body p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #282828;
+  margin-bottom: 0;
+}
+
+.iletisim .iletisim-form h2 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.iletisim .iletisim-form p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.iletisim .iletisim-form input,
+.iletisim .iletisim-form select {
+  margin-bottom: 8px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #728899;
+  height: calc(1.5em + 1.2rem + 2px);
+  padding: 0.775rem 0.75rem;
+}
+
+.iletisim .iletisim-form textarea {
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #728899;
+}
+
+.iletisim .iletisim-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+}
+
+.iletisim .iletisim-form .select-icon {
+  position: absolute;
+  pointer-events: none;
+  top: 15px;
+  right: 30px;
+  font-size: 10px;
+  color: #728899;
+  cursor: pointer;
+}
+
+.iletisim .iletisim-form .form-check label {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.iletisim .iletisim-form .form-check label a {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.iletisim .iletisim-form .form-check input {
+  margin-top: -8px;
+}
+
+.iletisim .iletisim-form .iletisim-checkboxes {
+  margin-top: 12px;
+}
+
+.iletisim .iletisim-form .submit-button {
+  background-color: #232F5F;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+  margin-top: 12px;
+  padding: 10px 26px;
+  border-radius: 2px;
+}
+
+.iletisim .bize-ulasin h4.title {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #273F52;
+  margin-bottom: 50px;
+}
+
+.iletisim .bize-ulasin .text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.iletisim .bize-ulasin p {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #232F5F;
+}
+
+.iletisim .bize-ulasin i {
+  font-size: 18px;
+  margin-right: 22px;
+  color: #232F5F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
