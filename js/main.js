@@ -100,3 +100,15 @@ function countdown() {
 }
 
 setInterval(countdown, 1000);
+
+/* Flip Card */
+
+$('.flip-button').on('click', function () {
+  $('.front').toggleClass('d-none');
+  $('.back').toggleClass('d-block');
+});
+
+$('.flip-button-2').on('click', function () {
+  $('.front').toggleClass('d-none');
+  $('.back').toggleClass('d-block');
+});

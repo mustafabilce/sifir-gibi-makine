@@ -2993,6 +2993,259 @@ footer .footer-bottom p {
   color: #000;
 }
 
+.nasil-satabilirim h4.title {
+  font-size: 42px;
+  line-height: 51px;
+  font-weight: 600;
+  color: #232323;
+}
+
+.nasil-satabilirim p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #282828;
+  margin-bottom: 0;
+}
+
+.tarife .tarife-top h4 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 17px;
+}
+
+.tarife .tarife-top p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #0E2435;
+  margin-bottom: 0;
+}
+
+.tarife .tarife-center .form-group {
+  position: relative;
+}
+
+.tarife .tarife-center .form-group select {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #728899;
+  border-radius: 1px;
+  height: calc(1.5em + 1.15rem + 2px);
+  padding: .275rem .75rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+}
+
+.tarife .tarife-center .select-icon {
+  position: absolute;
+  pointer-events: none;
+  top: 15px;
+  right: 20px;
+  font-size: 10px;
+  color:#728899;
+  cursor: pointer;
+}
+
+.tarife .tarife-center .card .card-header {
+  background-color: #44B276;
+  text-align: center;
+}
+
+.tarife .tarife-center .card .card-header h6 a {
+  font-size: 12px;
+  line-height: 14.63px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.tarife .tarife-center .card .card-header p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.tarife .tarife-center .card .card-body p {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 500;
+  color: #828282;
+  margin-bottom: 6px;
+}
+
+.tarife .tarife-center .card .card-body h2 {
+  font-size: 40px;
+  line-height: 49px;
+  font-weight: 600;
+  color: #282828;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.tarife .tarife-center .card .card-body span {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  color: #828282;
+}
+
+.tarife .tarife-center .card .card-body h5 {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #282828;
+  border-bottom: 1px solid #DADADA;
+  padding-bottom: 7px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tarife .tarife-center .card .card-body button.detaylari-goster {
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 500;
+  color: #232F5F;
+  border: 1px solid #232F5F;
+  display: flex;
+  align-items: center;
+  margin: 17px auto 21px;
+}
+
+.tarife .tarife-center .card .card-body button.detaylari-goster i {
+  margin-left: 5px;
+}
+
+.tarife .tarife-center .card .card-body button.btn-dark-blue a {
+  color: #fff;
+}
+
+.tarife .tarife-center .card .card-body button.btn-dark-blue a:hover {
+  text-decoration: none;
+}
+
+.tarife .tarife-center .card .card-body button.btn-dark-blue {
+  background-color: #232F5F;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #232F5F;
+  padding: 10px 1px;
+}
+
+.tarife .tarife-center .card .card-body .front {
+  display: block;
+  transition: 1s;
+}
+
+.tarife .tarife-center .card .card-body .back {
+  display: none;
+  transition: 1s;
+}
+
+.tarife .tarife-center .list-card {
+  border: none;
+}
+
+.tarife .tarife-center .list-card .list-group {
+  border: none;
+}
+
+.tarife .tarife-center .list-card .list-group-item {
+  border: none;
+  border-bottom: 1px solid #DADADA;
+  padding: 15px 0 4px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #282828;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tarife .tarife-center .list-card .list-group-item:first-child {
+  padding-top: 0;
+}
+
+.tarife .tarife-center .list-card .list-group-item i.fa-check {
+  color: #44B276;
+}
+
+.tarife .tarife-center .list-card .list-group-item i.fa-times {
+  color: #DA3B34;
+}
+
+.tarife-bottom img {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.tarife-bottom p {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 600;
+  color: #44B276;
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+
+.tarife-bottom .col-md-3 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+}
+
+.tarife-secim h4.title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  color: #232323;
+  text-align: center;
+}
+
+.tarife-secim .card {
+  background-color: rgba(218, 218, 218, 0.2);
+  border: none;
+}
+
+.error-page {
+  text-align: center;
+}
+
+.error-page i {
+  color: #232F5F;
+}
+
+.error-page h4 {
+  font-size: 32px;
+  line-height: 37px;
+  font-weight: 700;
+  color: #232F5F;
+  margin: 15px 0;
+}
+
+.error-page p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #0E2435;
+  margin: 0 0 50px;
+}
+
+
+
 
 
 
