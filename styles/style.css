@@ -376,6 +376,7 @@ body {
 
 .neden-sifir-gibi-makine {
   background-color: #44b2760d;
+  margin-top: 40px;
 }
 
 .neden-sifir-gibi-makine .title {
@@ -459,14 +460,14 @@ body {
 .sgm-ne-eder .title {
   font-size: 36px;
   line-height: 44px;
-  font-family: 600;
+  font-weight: 600;
   color: #44b276;
 }
 
 .sgm-ne-eder .subtitle {
   font-size: 16px;
   line-height: 19px;
-  font-family: 400;
+  font-weight: 400;
   color: #fff;
 }
 
@@ -518,7 +519,7 @@ body {
 .sgm-kategorileri .title {
   font-size: 42px;
   line-height: 51px;
-  font-family: 600;
+  font-weight: 600;
   color: #232323;
 }
 
@@ -633,7 +634,7 @@ body {
 .sgm-yeni-eklenenler .title {
   font-size: 42px;
   line-height: 51px;
-  font-family: 600;
+  font-weight: 600;
   color: #232323;
 }
 
@@ -915,6 +916,11 @@ footer .footer-bottom p {
   font-weight: 500;
   color: #808080;
   margin-bottom: 0;
+}
+
+footer .container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 /* MAKINE AL */
@@ -1382,6 +1388,11 @@ footer .footer-bottom p {
   line-height: 10.5px;
   font-weight: 500;
   color: #8e8e8e;
+}
+
+.urun-detay {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .urun-detay .title {
@@ -3355,6 +3366,22 @@ footer .footer-bottom p {
   margin-right: 0 !important;
 }
 
+.navbar .back-icon {
+  display: none;
+}
+
+.navbar .user-icon {
+  display: none;
+}
+
+.sgm-makine-al #makineAlCollapse .collapse-body .card-body .input-column .input-group {
+  margin-bottom: 0;
+}
+
+.just-mobile {
+  display: none;
+}
+
 /* RESPONSIVE */
 
 .mobile-bar {
@@ -3364,6 +3391,62 @@ footer .footer-bottom p {
 @media only screen and (max-width: 768px) {
   .sm-d-none {
     display: none !important;
+  }
+  .sm-d-block {
+    display: block !important;
+  }
+  .sm-text-center {
+    text-align: center !important;
+  }
+  .sm-pr-8 {
+    padding-right: 8px !important;
+  }
+  .sm-pl-8 {
+    padding-left: 8px !important;
+  }
+  .sm-px-8 {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  .sm-py-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .sm-py-40px {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+  .sm-p-25px {
+    padding: 25px !important;
+  }
+  .sm-mb-8 {
+    margin-bottom: 8px !important;
+  }
+  .sm-mt-8 {
+    margin-top: 8px !important;
+  }
+  .sm-my-8 {
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+  }
+  .sm-mt-0 {
+    margin-top: 0 !important;
+  }
+  .sm-mb-0 {
+    margin-bottom: 0 !important;
+  }
+  .sm-my-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .fs-8px {
+    font-size: 8px !important;
+  }
+  .ln-8px {
+    line-height: 8px !important;
+  }
+  .just-mobile {
+    display: block;
   }
   .mobile-bar {
     display: flex;
@@ -3379,6 +3462,9 @@ footer .footer-bottom p {
   .mobile-bar .col {
     padding: 0 10px;
     text-align: center;
+  }
+  .navbar {
+    border-bottom: 1px solid #DADADA;
   }
   .navbar #search-input {
     max-width: 230px;
@@ -3403,6 +3489,7 @@ footer .footer-bottom p {
   }
   .makine-al-sat .container {
     padding: 25px 0;
+    border-radius: 0;
   }
   .mobile-btn {
     font-size: 14px !important;
@@ -3433,6 +3520,248 @@ footer .footer-bottom p {
     font-size: 10px;
     line-height: 12.19px;
   }
+  .topbar {
+    display: none;
+  }
+  .navbar .container {
+    align-items: center;
+  }
+  .navbar .navbar-brand img {
+    max-width: 100px;
+    max-height: 30px;
+  }
+  .navbar .back-icon {
+    display: block;
+    padding-left: 10px;
+    font-size: 17px;
+    color: #44B276;
+  }
+  .navbar .user-icon {
+    display: block;
+    padding-right: 10px;
+    font-size: 20px;
+    color: #44B276;
+  }
+  #main-carousel .carousel-caption {
+    left: 56px;
+    top: 20px;
+  }
+  #main-carousel .carousel-caption h5 {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 18px;
+  }
+  #main-carousel .carousel-caption p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 18px;
+  }
+  #main-carousel .carousel-caption a {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .sifir-gibi-vitrin .card-price {
+    width: 100px;
+    height: 25px;
+  }
+  .sifir-gibi-vitrin .card-price h4 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .sifir-gibi-magazalar .title h4 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .neden-sifir-gibi-makine .title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .neden-sifir-gibi-makine .neden-card .card-body img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .neden-sifir-gibi-makine .neden-card .card-body .card-title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .neden-sifir-gibi-makine .neden-card .card-body .card-text {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 5px;
+  }
+  .neden-sifir-gibi-makine .neden-card .card-body .card-link {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .sgm-degerler .title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .sgm-ne-eder .title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .sgm-ne-eder .title img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .sgm-ne-eder .subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 8px;
+  }
+  .sgm-ne-eder form .form-group label {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .sgm-ne-eder form .form-group .select-input {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .sgm-ne-eder .sdm-ne-eder-button button {
+    height: 35px;
+    font-size: 12px;
+  }
+  .sgm-kategorileri .title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .sgm-kategorileri .owl-carousel .card .slider-card-text h5 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .sgm-kategorileri .owl-carousel .card .card-body .slider-card-items a {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .sgm-kategorileri .owl-carousel .card .slider-card-text p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .sgm-kategorileri .owl-carousel .card .card-body .slider-card-items {
+    padding: 1rem;
+  }
+  .sgm-kategorileri .owl-carousel .card .card-body .slider-card-items a:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .sgm-kategorileri .tumunugor-button {
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .sgm-yeni-eklenenler .title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .sgm-yeni-eklenenler .tumunugor-button {
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  #ihalelerimiz-slider .ihale-sure {
+    padding: 5px;
+  }
+  #ihalelerimiz-slider .ihale-sure .item p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  #ihalelerimiz-slider .ihale-sure .item span {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .breadcrumb-comp {
+    margin: 12px 0;
+  }
+  .sgm-makine-al .makine-al-collapse-button {
+    font-size: 10px !important;
+  }
+  .sgm-makine-al #makineAlCollapse .collapse-body .card-body .input-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .sgm-makine-al #makineAlCollapse .collapse-body .card-body .input-column .input-group {
+    margin-bottom: 8px;
+  }
+  .sgm-makine-al #makineAlCollapse .collapse-body .card-body .input-column .input-group:first-child input {
+    margin-right: 0;
+    min-width: 100%;
+  }
+  .sgm-makine-al #makineAlCollapse .collapse-body button {
+    display: block;
+    width: 100%;
+    padding: 8px 18px;
+  }
+  .sgm-makine-al .card .slider-card-text h5 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .sgm-makine-al .card .card-body .slider-card-items a {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .sgm-makine-al .card .slider-card-text p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .sgm-makine-al .card  {
+    margin-bottom: 16px;
+  }
+  .sgm-makine-liste.mobile {
+    padding: 10px 0 0;
+  }
+  .sgm-makine-liste.mobile .filter-collapse-button {
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 700;
+    color: #44B276;
+    border-radius: 2px;
+    padding: 10px 14px;
+    background-color: #fff;
+  }
+  .sgm-makine-liste.mobile .mobile-collapse {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .mobile-collapse .filter-sort-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobile-collapse #mobileCollapse {
+    margin-top: 20px;
+  }
+  .mobile-collapse .boxes-filter {
+    display: block;
+  }
+  .urun-detay .title {
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #44B276;
+    margin-bottom: 13px;
+  }
+  .urun-detay .date,
+  .urun-detay .seri-no {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 600;
+    color: #728899;
+  }
+  .urun-detay h5.location {
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #282828;
+  }
+  .urun-detay h3.price {
+    font-size: 42px;
+    line-height: 44px;
+    font-weight: 600;
+    color: #FF6D00;
+  }
 }
 
 .mobile-bar .menu-icon {
@@ -3448,4 +3777,114 @@ footer .footer-bottom p {
   margin-top: 5px;
   margin-bottom: 0;
   color: #44b276;
+}
+
+.urun-detay.just-mobile {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Mobile Components */
+
+/* makine-liste-card */
+
+.makine-liste-card .card {
+  margin-bottom: 16px;
+}
+
+.makine-liste-card .card-body .card-date {
+  font-size: 7px;
+  line-height: 7px;
+  font-weight: 400;
+  color: #8E8E8E;
+  margin-bottom: 5px;
+}
+
+.makine-liste-card .card-body .card-category {
+  font-size: 8px;
+  line-height: 10px;
+  font-weight: 500;
+  color: #8E8E8E;
+  margin-bottom: 5px;
+}
+
+.makine-liste-card .card-body .card-name {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 500;
+  color: #232323;
+  margin-bottom: 10px;
+}
+
+.makine-liste-card .card-body .card-features span {
+  font-size: 9px;
+  line-height: 11px;
+  font-weight: 400;
+}
+
+.makine-liste-card .card-body .card-features strong {
+  font-weight: 600;
+  color: #8E8E8E;
+}
+
+.makine-liste-card .card-body .card-features .box {
+  padding: 5px 0 5px 10px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  border: 1px solid rgba(68, 178, 118, 0.2);
+  border-radius: .25rem;
+  margin-bottom: 5px;
+}
+
+.makine-liste-card .card-body .card-features .col-12:last-child .box {
+  margin-bottom: 0px;
+} 
+
+.makine-liste-card .card-body .card-features i {
+  font-size: 8px;
+  padding: 3px;
+  border-radius: 2px;
+  background-color: rgba(68, 178, 118, 0.2);
+  margin-right: 5px;
+}
+
+/* makine-liste-list-item */
+
+.makine-liste-list-item .card {
+  padding: 10px 0;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+
+.makine-liste-list-item .card .card-body {
+  padding: 8px;
+  margin: 0;
+}
+
+.makine-liste-list-item .card .card-body .card-category {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  color: #8E8E8E;
+  margin-bottom: 7px;
+}
+
+.makine-liste-list-item .card .card-body .card-name {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #232323;
+  margin-bottom: 7px;
+}
+
+.makine-liste-list-item .card .card-body .card-price {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0px;
 }

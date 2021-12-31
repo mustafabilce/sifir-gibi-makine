@@ -6,6 +6,11 @@ $("#kategori-slider").owlCarousel({
   dots: false,
   responsive: {
     0: {
+      items: 1,
+      nav: false,
+      dots: true,
+    },
+    768: {
       items: 3,
     },
   },
@@ -19,6 +24,11 @@ $("#yeni-eklenenler-slider").owlCarousel({
   dots: false,
   responsive: {
     0: {
+      items: 2,
+      nav: false,
+      dots: true
+    },
+    768: {
       items: 3,
     },
   },
@@ -27,11 +37,16 @@ $("#yeni-eklenenler-slider").owlCarousel({
 $("#ihalelerimiz-slider").owlCarousel({
   loop: true,
   autoplay: false,
-  margin: 20,
+  margin: 16,
   nav: true,
   dots: false,
   responsive: {
     0: {
+      items: 2,
+      nav: false,
+      dots: true
+    },
+    768: {
       items: 3,
     },
   },
@@ -45,6 +60,11 @@ $("#blog-slider").owlCarousel({
   dots: false,
   responsive: {
     0: {
+      items: 2,
+      nav: false,
+      dots: true
+    },
+    768: {
       items: 3,
     },
   },

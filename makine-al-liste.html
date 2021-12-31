@@ -23,989 +23,1032 @@
     />
   </head>
   <body>
-    <div class="topbar bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <a href="#" class="topbar-item">Sıfır Gibi Ekspertiz</a>
-            <a href="#" class="topbar-item">Sıfır Gibi Servis</a>
-            <a href="#" class="topbar-item">Sıfır Gibi Nakliye</a>
-            <a href="hakkimizda.html" class="topbar-item">Hakkımızda</a>
-            <a href="#" class="topbar-item">Hizmetlerimiz</a>
-            <a href="blog.html" class="topbar-item">Blog</a>
-            <a href="iletisim.html" class="topbar-item">İletişim</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/logo.png" alt="" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              id="search-input"
-              class="form-control rounded-0"
-              type="search"
-              placeholder="Marka, Model veya İlan No ile Arayın"
-              aria-label="Search"
-            />
-            <button
-              class="btn btn-secondary rounded-0 my-2 my-sm-0"
-              type="submit"
-            >
-              <i class="fas fa-search"></i>
-            </button>
-          </form>
-        </div>
-        <div class="nav-login-register">
-          <button class="btn btn-success">Giriş Yap</button>
-          <button class="btn btn-outline-secondary">Üye Ol</button>
-        </div>
-      </div>
-    </nav>
-
-    <div class="breadcrumb-comp">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <a href="#">Anasayfa</a>
-            <span><i class="fas fa-angle-right"></i></span>
-            <a href="#">Makine Sat</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="sgm-makine-liste bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="sidebar">
-              <div class="card">
-                <div class="card-header">Marka Seçiniz</div>
-                <div class="card-body">
-                  <form>
-                    <div class="form-group">
-                      <select class="form-control" id="marka-1">
-                        <option>Kategori</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <select class="form-control" id="marka-1">
-                        <option>Marka</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <select class="form-control" id="marka-1">
-                        <option>Model</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                    </div>
-                  </form>
-                </div>
-              </div>
-              <div class="card mt-3">
-                <div class="card-header">Filtreler</div>
-                <div class="card-body bg-light">
-                  <p>Lokasyon</p>
-                  <form>
-                    <div class="form-group">
-                      <select class="form-control" id="marka-1">
-                        <option>Kategori</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <select class="form-control" id="marka-1">
-                        <option>Marka</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <select class="form-control" id="marka-1">
-                        <option>Model</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                    </div>
-                  </form>
-                </div>
-                <div class="card-body bg-light">
-                  <p>Fiyat</p>
-                  <form>
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="min-tutar"
-                        placeholder="Min Tutar"
-                      />
-                    </div>
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="max-tutar"
-                        placeholder="Max Tutar"
-                      />
-                    </div>
-                  </form>
-                </div>
-                <div class="card-body bg-light">
-                  <p>Yıl</p>
-                  <form>
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="min-tutar"
-                        placeholder="Min"
-                      />
-                    </div>
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="max-tutar"
-                        placeholder="Max"
-                      />
-                    </div>
-                  </form>
-                </div>
-                <div class="card-body bg-light">
-                  <p>Fotoğraf ve Video</p>
-                  <form>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="fotografli-ilan"
-                      />
-                      <label class="form-check-label" for="fotografli-ilan">
-                        Videolu İlanlar
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="videolu-ilan"
-                      />
-                      <label class="form-check-label" for="videolu-ilan">
-                        Fotoğraflı İlanlar
-                      </label>
-                    </div>
-                  </form>
-                </div>
-                <div class="card-body p-0">
-                  <button class="btn btn-success btn-block filtreleri-uygula">
-                    Filtreleri Uygula
-                  </button>
-                  <div class="filtreleri-sifirla">
-                    <a href="#"> FİLTRE AYARLARINI SIFIRLA </a>
+    
+    <div class="section">
+      <div class="mobile-bar">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col">
+                      <a href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                          </svg>
+                          <p>Makine Al</p>
+                      </a>
                   </div>
-                </div>
+                  <div class="col">
+                      <a href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                          </svg>
+                          <p>Makine Sat</p>
+                      </a>
+                  </div>
+                  <div class="col">
+                      <a href="#" class="active">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                          </svg>
+                          <p>Anasayfa</p>
+                      </a>
+                  </div>
+                  <div class="col">
+                      <a href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                          </svg>
+                          <p>Kategoriler</p>
+                      </a>
+                  </div>
+                  <div class="col">
+                      <a href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                          </svg>
+                          <p>Arama</p>
+                      </a>
+                  </div>
               </div>
+          </div>
+      </div>
+  
+      <div class="topbar">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <a href="#" class="topbar-item">Sıfır Gibi Ekspertiz</a>
+                      <a href="#" class="topbar-item">Sıfır Gibi Servis</a>
+                      <a href="#" class="topbar-item">Sıfır Gibi Nakliye</a>
+                      <a href="hakkimizda.html" class="topbar-item">Hakkımızda</a>
+                      <a href="#" class="topbar-item">Hizmetlerimiz</a>
+                      <a href="blog.html" class="topbar-item">Blog</a>
+                      <a href="iletisim.html" class="topbar-item">İletişim</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+  
+              <div class="back-icon">
+                  <i class="fas fa-chevron-left"></i>
+              </div>
+  
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="">
+              </a>
+  
+              <div class="user-icon">
+                  <i class="far fa-user"></i>
+              </div>
+        
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <form class="form-inline my-2 my-lg-0">
+                      <input id="search-input" class="form-control rounded-0" type="search" placeholder="Marka, Model veya İlan No ile Arayın" aria-label="Search">
+                      <button class="btn btn-secondary rounded-0 my-2 my-sm-0" type="submit">
+                          <i class="fas fa-search"></i>
+                      </button>
+                  </form>
+              </div>
+              <div class="nav-login-register sm-d-none">
+                  <a href="giris-yap.html">
+                      <button class="btn btn-success">Giriş Yap</button>
+                  </a>
+                  <a href="kayit-ol.html">
+                      <button class="btn btn-outline-secondary">Üye Ol</button>
+                  </a>
+              </div>
+          </div>
+      </nav>
+  
+      <div class="breadcrumb-comp">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <a href="#">Anasayfa</a>
+              <span><i class="fas fa-angle-right"></i></span>
+              <a href="#">Makine Sat</a>
             </div>
           </div>
-          <div class="col-md-9">
-            <div class="vitrin-makineleri">
-              <h3 class="title">Vitrin Makineleri</h3>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="owl-carousel owl-theme" id="yeni-eklenenler-slider">
-                        <div class="item">
-                          <div class="card mb-4">
-                            <div class="position-relative">
-                              <img
-                                src="images/card-ing-height-down.png"
-                                class="card-img-top img-fluid"
-                                alt="card-img"
-                              />
-                              <div class="card-price">
-                                <h4>₺ 210.000</h4>
-                              </div>
-                            </div>
-                            <div class="card-body p-2">
-                              <p class="card-date mb-1">12 Ocak 2021</p>
-                              <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                              <p class="card-type mb-3">
-                                Robokut <br />
-                                45 A Plazma Kesim Makinesi
-                              </p>
-                              <div class="card-features">
-                                <div class="row">
-                                  <div class="col-md-4 border-right">
-                                    <i class="fas fa-tag"></i>
-                                    <span
-                                      >Marka <br />
-                                      Star</span
-                                    >
-                                  </div>
-                                  <div class="col-md-4 border-right text-center">
-                                    <i class="fas fa-tag"></i>
-                                    <span
-                                      >Marka <br />
-                                      Star</span
-                                    >
-                                  </div>
-                                  <div class="col-md-4 text-center">
-                                    <i class="fas fa-tag"></i>
-                                    <span
-                                      >Marka <br />
-                                      Star</span
-                                    >
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="item">
-                          <div class="card mb-4">
-                            <div class="position-relative">
-                              <img
-                                src="images/card-ing-height-down.png"
-                                class="card-img-top img-fluid"
-                                alt="card-img"
-                              />
-                              <div class="card-price">
-                                <h4>₺ 210.000</h4>
-                              </div>
-                            </div>
-                            <div class="card-body p-2">
-                              <p class="card-date mb-1">12 Ocak 2021</p>
-                              <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                              <p class="card-type mb-3">
-                                Robokut <br />
-                                45 A Plazma Kesim Makinesi
-                              </p>
-                              <div class="card-features">
-                                <div class="row">
-                                  <div class="col-md-4 border-right">
-                                    <i class="fas fa-tag"></i>
-                                    <span
-                                      >Marka <br />
-                                      Star</span
-                                    >
-                                  </div>
-                                  <div class="col-md-4 border-right text-center">
-                                    <i class="fas fa-tag"></i>
-                                    <span
-                                      >Marka <br />
-                                      Star</span
-                                    >
-                                  </div>
-                                  <div class="col-md-4 text-center">
-                                    <i class="fas fa-tag"></i>
-                                    <span
-                                      >Marka <br />
-                                      Star</span
-                                    >
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="item">
-                          <div class="card mb-4">
-                            <div class="position-relative">
-                              <img
-                                src="images/card-ing-height-down.png"
-                                class="card-img-top img-fluid"
-                                alt="card-img"
-                              />
-                              <div class="card-price">
-                                <h4>₺ 210.000</h4>
-                              </div>
-                            </div>
-                            <div class="card-body p-2">
-                              <p class="card-date mb-1">12 Ocak 2021</p>
-                              <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                              <p class="card-type mb-3">
-                                Robokut <br />
-                                45 A Plazma Kesim Makinesi
-                              </p>
-                              <div class="card-features">
-                                <div class="row">
-                                  <div class="col-md-4 border-right">
-                                    <i class="fas fa-tag"></i>
-                                    <span
-                                      >Marka <br />
-                                      Star</span
-                                    >
-                                  </div>
-                                  <div class="col-md-4 border-right text-center">
-                                    <i class="fas fa-tag"></i>
-                                    <span
-                                      >Marka <br />
-                                      Star</span
-                                    >
-                                  </div>
-                                  <div class="col-md-4 text-center">
-                                    <i class="fas fa-tag"></i>
-                                    <span
-                                      >Marka <br />
-                                      Star</span
-                                    >
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="item">
-                          <div class="card mb-4">
-                            <div class="position-relative">
-                              <img
-                                src="images/card-ing-height-down.png"
-                                class="card-img-top img-fluid"
-                                alt="card-img"
-                              />
-                              <div class="card-price">
-                                <h4>₺ 210.000</h4>
-                              </div>
-                            </div>
-                            <div class="card-body p-2">
-                              <p class="card-date mb-1">12 Ocak 2021</p>
-                              <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                              <p class="card-type mb-3">
-                                Robokut <br />
-                                45 A Plazma Kesim Makinesi
-                              </p>
-                              <div class="card-features">
-                                <div class="row">
-                                  <div class="col-md-4 border-right">
-                                    <i class="fas fa-tag"></i>
-                                    <span
-                                      >Marka <br />
-                                      Star</span
-                                    >
-                                  </div>
-                                  <div class="col-md-4 border-right text-center">
-                                    <i class="fas fa-tag"></i>
-                                    <span
-                                      >Marka <br />
-                                      Star</span
-                                    >
-                                  </div>
-                                  <div class="col-md-4 text-center">
-                                    <i class="fas fa-tag"></i>
-                                    <span
-                                      >Marka <br />
-                                      Star</span
-                                    >
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion" id="listing-accordion">
-                <div class="row mt-3">
-                  <div class="col-md-12">
-                    <div class="row align-items-center">
-                      <div class="col-md-7">
-                        <p class="text-12-14-500 text-gray-light mb-0">
-                          <strong class="text-dark">10204</strong> adet ilan
-                          görüntüleniyor
-                        </p>
-                      </div>
-                      <div class="col-md-5 boxes-filter">
-                        <div class="mr-5 d-flex">
-                          <div id="headingOne">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <i class="fas fa-th-large"></i>
-                            </button>
-                          </div>
-                          <div id="headingTwo">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >
-                                <i class="fas fa-grip-lines"></i>
-                            </button>
-                          </div>
-                        </div>
-                        <div class="form-group mb-0">
-                          <label for="exampleFormControlSelect1">Sırala</label>
-                          <select class="form-control" id="sirala">
-                            <option>Yeni eklenenler</option>
+        </div>
+      </div>
+  
+      <div class="sgm-makine-liste bg-light sm-d-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="sidebar">
+                <div class="card sm-d-none">
+                  <div class="card-header">Marka Seçiniz</div>
+                    <div class="card-body">
+                      <form>
+                        <div class="form-group">
+                          <select class="form-control" id="marka-1">
+                            <option>Kategori</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
                             <option>5</option>
                           </select>
                         </div>
+                        <div class="form-group">
+                          <select class="form-control" id="marka-1">
+                            <option>Marka</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <select class="form-control" id="marka-1">
+                            <option>Model</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                <div class="card mt-3 sm-d-none">
+                  <div class="card-header">Filtreler</div>
+                  <div class="card-body bg-light">
+                    <p>Lokasyon</p>
+                    <form>
+                      <div class="form-group">
+                        <select class="form-control" id="marka-1">
+                          <option>Kategori</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <select class="form-control" id="marka-1">
+                          <option>Marka</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <select class="form-control" id="marka-1">
+                          <option>Model</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="card-body bg-light">
+                    <p>Fiyat</p>
+                    <form>
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="min-tutar"
+                          placeholder="Min Tutar"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="max-tutar"
+                          placeholder="Max Tutar"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                  <div class="card-body bg-light">
+                    <p>Yıl</p>
+                    <form>
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="min-tutar"
+                          placeholder="Min"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="max-tutar"
+                          placeholder="Max"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                  <div class="card-body bg-light">
+                    <p>Fotoğraf ve Video</p>
+                    <form>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="fotografli-ilan"
+                        />
+                        <label class="form-check-label" for="fotografli-ilan">
+                          Videolu İlanlar
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="videolu-ilan"
+                        />
+                        <label class="form-check-label" for="videolu-ilan">
+                          Fotoğraflı İlanlar
+                        </label>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="card-body p-0">
+                    <button class="btn btn-success btn-block filtreleri-uygula">
+                      Filtreleri Uygula
+                    </button>
+                    <div class="filtreleri-sifirla">
+                      <a href="#"> FİLTRE AYARLARINI SIFIRLA </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="vitrin-makineleri">
+                <h3 class="title">Vitrin Makineleri</h3>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="owl-carousel owl-theme" id="yeni-eklenenler-slider">
+                          <div class="item">
+                            <div class="card mb-4">
+                              <div class="position-relative">
+                                <img
+                                  src="images/card-ing-height-down.png"
+                                  class="card-img-top img-fluid"
+                                  alt="card-img"
+                                />
+                                <div class="card-price">
+                                  <h4>₺ 210.000</h4>
+                                </div>
+                              </div>
+                              <div class="card-body p-2">
+                                <p class="card-date mb-1">12 Ocak 2021</p>
+                                <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                <p class="card-type mb-3">
+                                  Robokut <br />
+                                  45 A Plazma Kesim Makinesi
+                                </p>
+                                <div class="card-features">
+                                  <div class="row">
+                                    <div class="col-md-4 border-right">
+                                      <i class="fas fa-tag"></i>
+                                      <span
+                                        >Marka <br />
+                                        Star</span
+                                      >
+                                    </div>
+                                    <div class="col-md-4 border-right text-center">
+                                      <i class="fas fa-tag"></i>
+                                      <span
+                                        >Marka <br />
+                                        Star</span
+                                      >
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                      <i class="fas fa-tag"></i>
+                                      <span
+                                        >Marka <br />
+                                        Star</span
+                                      >
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="card mb-4">
+                              <div class="position-relative">
+                                <img
+                                  src="images/card-ing-height-down.png"
+                                  class="card-img-top img-fluid"
+                                  alt="card-img"
+                                />
+                                <div class="card-price">
+                                  <h4>₺ 210.000</h4>
+                                </div>
+                              </div>
+                              <div class="card-body p-2">
+                                <p class="card-date mb-1">12 Ocak 2021</p>
+                                <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                <p class="card-type mb-3">
+                                  Robokut <br />
+                                  45 A Plazma Kesim Makinesi
+                                </p>
+                                <div class="card-features">
+                                  <div class="row">
+                                    <div class="col-md-4 border-right">
+                                      <i class="fas fa-tag"></i>
+                                      <span
+                                        >Marka <br />
+                                        Star</span
+                                      >
+                                    </div>
+                                    <div class="col-md-4 border-right text-center">
+                                      <i class="fas fa-tag"></i>
+                                      <span
+                                        >Marka <br />
+                                        Star</span
+                                      >
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                      <i class="fas fa-tag"></i>
+                                      <span
+                                        >Marka <br />
+                                        Star</span
+                                      >
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="card mb-4">
+                              <div class="position-relative">
+                                <img
+                                  src="images/card-ing-height-down.png"
+                                  class="card-img-top img-fluid"
+                                  alt="card-img"
+                                />
+                                <div class="card-price">
+                                  <h4>₺ 210.000</h4>
+                                </div>
+                              </div>
+                              <div class="card-body p-2">
+                                <p class="card-date mb-1">12 Ocak 2021</p>
+                                <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                <p class="card-type mb-3">
+                                  Robokut <br />
+                                  45 A Plazma Kesim Makinesi
+                                </p>
+                                <div class="card-features">
+                                  <div class="row">
+                                    <div class="col-md-4 border-right">
+                                      <i class="fas fa-tag"></i>
+                                      <span
+                                        >Marka <br />
+                                        Star</span
+                                      >
+                                    </div>
+                                    <div class="col-md-4 border-right text-center">
+                                      <i class="fas fa-tag"></i>
+                                      <span
+                                        >Marka <br />
+                                        Star</span
+                                      >
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                      <i class="fas fa-tag"></i>
+                                      <span
+                                        >Marka <br />
+                                        Star</span
+                                      >
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="card mb-4">
+                              <div class="position-relative">
+                                <img
+                                  src="images/card-ing-height-down.png"
+                                  class="card-img-top img-fluid"
+                                  alt="card-img"
+                                />
+                                <div class="card-price">
+                                  <h4>₺ 210.000</h4>
+                                </div>
+                              </div>
+                              <div class="card-body p-2">
+                                <p class="card-date mb-1">12 Ocak 2021</p>
+                                <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                <p class="card-type mb-3">
+                                  Robokut <br />
+                                  45 A Plazma Kesim Makinesi
+                                </p>
+                                <div class="card-features">
+                                  <div class="row">
+                                    <div class="col-md-4 border-right">
+                                      <i class="fas fa-tag"></i>
+                                      <span
+                                        >Marka <br />
+                                        Star</span
+                                      >
+                                    </div>
+                                    <div class="col-md-4 border-right text-center">
+                                      <i class="fas fa-tag"></i>
+                                      <span
+                                        >Marka <br />
+                                        Star</span
+                                      >
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                      <i class="fas fa-tag"></i>
+                                      <span
+                                        >Marka <br />
+                                        Star</span
+                                      >
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="row mt-3">
-                  <div class="col-md-12 listing-v1" id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#listing-accordion">
-                    <table class="sgm-table">
-                      <tr>
-                        <th>İlan Görseli</th>
-                        <th>İlan Açıklaması</th>
-                        <th>Marka</th>
-                        <th>
-                          Model/ <br />
-                          Model Yılı
-                        </th>
-                        <th>İlan Tarihi</th>
-                        <th>Fiyat</th>
-                        <th></th>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img
-                            class="img-fluid w-100"
-                            src="images/table-img.png"
-                            alt=""
-                          />
-                        </td>
-                        <td>
-                          <span>CNC İşleme Merkezi</span>
-                          <p>
-                            Robokut <br />
-                            45 A Plazma Kesim Makinesi
+                <div class="accordion" id="listing-accordion">
+                  <div class="row mt-3">
+                    <div class="col-md-12">
+                      <div class="row align-items-center">
+                        <div class="col-md-7">
+                          <p class="text-12-14-500 text-gray-light mb-0">
+                            <strong class="text-dark">10204</strong> adet ilan
+                            görüntüleniyor
                           </p>
-                        </td>
-                        <td>
-                          <p>STAR</p>
-                        </td>
-                        <td>
-                          <p>Kitamura</p>
-                        </td>
-                        <td>
-                          <p>13.Ocak.2021</p>
-                        </td>
-                        <td>
-                          <p class="bold">₺210.000</p>
-                        </td>
-                        <td><i class="fas fa-star text-yellow"></i></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img
-                            class="img-fluid w-100"
-                            src="images/table-img.png"
-                            alt=""
-                          />
-                        </td>
-                        <td>
-                          <span>CNC İşleme Merkezi</span>
-                          <p>
-                            Robokut <br />
-                            45 A Plazma Kesim Makinesi
-                          </p>
-                        </td>
-                        <td>
-                          <p>STAR</p>
-                        </td>
-                        <td>
-                          <p>Kitamura</p>
-                        </td>
-                        <td>
-                          <p>13.Ocak.2021</p>
-                        </td>
-                        <td>
-                          <p class="bold">₺210.000</p>
-                        </td>
-                        <td><i class="far fa-star"></i></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img
-                            class="img-fluid w-100"
-                            src="images/table-img.png"
-                            alt=""
-                          />
-                        </td>
-                        <td>
-                          <span>CNC İşleme Merkezi</span>
-                          <p>
-                            Robokut <br />
-                            45 A Plazma Kesim Makinesi
-                          </p>
-                        </td>
-                        <td>
-                          <p>STAR</p>
-                        </td>
-                        <td>
-                          <p>Kitamura</p>
-                        </td>
-                        <td>
-                          <p>13.Ocak.2021</p>
-                        </td>
-                        <td>
-                          <p class="bold">₺210.000</p>
-                        </td>
-                        <td><i class="fas fa-star text-yellow"></i></td>
-                      </tr>
-                        <td>
-                          <img
-                            class="img-fluid w-100"
-                            src="images/table-img.png"
-                            alt=""
-                          />
-                        </td>
-                        <td>
-                          <span>CNC İşleme Merkezi</span>
-                          <p>
-                            Robokut <br />
-                            45 A Plazma Kesim Makinesi
-                          </p>
-                        </td>
-                        <td>
-                          <p>STAR</p>
-                        </td>
-                        <td>
-                          <p>Kitamura</p>
-                        </td>
-                        <td>
-                          <p>13.Ocak.2021</p>
-                        </td>
-                        <td>
-                          <p class="bold">₺210.000</p>
-                        </td>
-                        <td><i class="far fa-star"></i></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img
-                            class="img-fluid w-100"
-                            src="images/table-img.png"
-                            alt=""
-                          />
-                        </td>
-                        <td>
-                          <span>CNC İşleme Merkezi</span>
-                          <p>
-                            Robokut <br />
-                            45 A Plazma Kesim Makinesi
-                          </p>
-                        </td>
-                        <td>
-                          <p>STAR</p>
-                        </td>
-                        <td>
-                          <p>Kitamura</p>
-                        </td>
-                        <td>
-                          <p>13.Ocak.2021</p>
-                        </td>
-                        <td>
-                          <p class="bold">₺210.000</p>
-                        </td>
-                        <td><i class="fas fa-star text-yellow"></i></td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img
-                            class="img-fluid w-100"
-                            src="images/table-img.png"
-                            alt=""
-                          />
-                        </td>
-                        <td>
-                          <span>CNC İşleme Merkezi</span>
-                          <p>
-                            Robokut <br />
-                            45 A Plazma Kesim Makinesi
-                          </p>
-                        </td>
-                        <td>
-                          <p>STAR</p>
-                        </td>
-                        <td>
-                          <p>Kitamura</p>
-                        </td>
-                        <td>
-                          <p>13.Ocak.2021</p>
-                        </td>
-                        <td>
-                          <p class="bold">₺210.000</p>
-                        </td>
-                        <td><i class="far fa-star"></i></td>
-                      </tr>
-                    </table>
-                    <div class="mt-5 d-flex justify-content-center">
-                      <ul class="pagination">
-                        <li class="page-item">
-                          <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                          </a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link active" href="#">1</a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="#">2</a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="#">3</a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="#">...</a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                          </a>
-                        </li>
-                      </ul>
+                        </div>
+                        <div class="col-md-5 boxes-filter">
+                          <div class="mr-5 d-flex">
+                            <div id="headingOne">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  <i class="fas fa-th-large"></i>
+                              </button>
+                            </div>
+                            <div id="headingTwo">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >
+                                  <i class="fas fa-grip-lines"></i>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="form-group mb-0">
+                            <label for="exampleFormControlSelect1">Sırala</label>
+                            <select class="form-control" id="sirala">
+                              <option>Yeni eklenenler</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-12 listing-v2" id="collapseTwo"  class="collapse" aria-labelledby="headingTwo" data-parent="#listing-accordion">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <div class="position-relative">
-                                    <img src="images/card-img.png" class="card-img-top" alt="card-img">
-                                    <div class="card-price">
-                                        <h4>₺ 210.000</h4>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-date mb-1">12 Ocak 2021</p>
-                                    <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                                    <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
-                                    <div class="card-features">
-                                        <div class="row">
-                                            <div class="col-md-4 border-right">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 border-right text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <div class="position-relative">
-                                    <img src="images/card-img.png" class="card-img-top" alt="card-img">
-                                    <div class="card-price">
-                                        <h4>₺ 210.000</h4>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-date mb-1">12 Ocak 2021</p>
-                                    <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                                    <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
-                                    <div class="card-features">
-                                        <div class="row">
-                                            <div class="col-md-4 border-right">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 border-right text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <div class="position-relative">
-                                    <img src="images/card-img.png" class="card-img-top" alt="card-img">
-                                    <div class="card-price">
-                                        <h4>₺ 210.000</h4>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-date mb-1">12 Ocak 2021</p>
-                                    <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                                    <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
-                                    <div class="card-features">
-                                        <div class="row">
-                                            <div class="col-md-4 border-right">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 border-right text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <div class="position-relative">
-                                    <img src="images/card-img.png" class="card-img-top" alt="card-img">
-                                    <div class="card-price">
-                                        <h4>₺ 210.000</h4>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-date mb-1">12 Ocak 2021</p>
-                                    <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                                    <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
-                                    <div class="card-features">
-                                        <div class="row">
-                                            <div class="col-md-4 border-right">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 border-right text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <div class="position-relative">
-                                    <img src="images/card-img.png" class="card-img-top" alt="card-img">
-                                    <div class="card-price">
-                                        <h4>₺ 210.000</h4>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-date mb-1">12 Ocak 2021</p>
-                                    <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                                    <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
-                                    <div class="card-features">
-                                        <div class="row">
-                                            <div class="col-md-4 border-right">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 border-right text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <div class="position-relative">
-                                    <img src="images/card-img.png" class="card-img-top" alt="card-img">
-                                    <div class="card-price">
-                                        <h4>₺ 210.000</h4>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-date mb-1">12 Ocak 2021</p>
-                                    <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                                    <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
-                                    <div class="card-features">
-                                        <div class="row">
-                                            <div class="col-md-4 border-right">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 border-right text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <div class="position-relative">
-                                    <img src="images/card-img.png" class="card-img-top" alt="card-img">
-                                    <div class="card-price">
-                                        <h4>₺ 210.000</h4>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-date mb-1">12 Ocak 2021</p>
-                                    <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                                    <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
-                                    <div class="card-features">
-                                        <div class="row">
-                                            <div class="col-md-4 border-right">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 border-right text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <div class="position-relative">
-                                    <img src="images/card-img.png" class="card-img-top" alt="card-img">
-                                    <div class="card-price">
-                                        <h4>₺ 210.000</h4>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-date mb-1">12 Ocak 2021</p>
-                                    <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                                    <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
-                                    <div class="card-features">
-                                        <div class="row">
-                                            <div class="col-md-4 border-right">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 border-right text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <div class="position-relative">
-                                    <img src="images/card-img.png" class="card-img-top" alt="card-img">
-                                    <div class="card-price">
-                                        <h4>₺ 210.000</h4>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-date mb-1">12 Ocak 2021</p>
-                                    <p class="card-work mb-1">CNC İşleme Merkesi</p>
-                                    <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
-                                    <div class="card-features">
-                                        <div class="row">
-                                            <div class="col-md-4 border-right">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 border-right text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <i class="fas fa-tag"></i>
-                                                <span>Marka <br> Star</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="row mt-3">
+                    <div class="col-md-12 listing-v1" id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#listing-accordion">
+                      <table class="sgm-table">
+                        <tr>
+                          <th>İlan Görseli</th>
+                          <th>İlan Açıklaması</th>
+                          <th>Marka</th>
+                          <th>
+                            Model/ <br />
+                            Model Yılı
+                          </th>
+                          <th>İlan Tarihi</th>
+                          <th>Fiyat</th>
+                          <th></th>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img
+                              class="img-fluid w-100"
+                              src="images/table-img.png"
+                              alt=""
+                            />
+                          </td>
+                          <td>
+                            <span>CNC İşleme Merkezi</span>
+                            <p>
+                              Robokut <br />
+                              45 A Plazma Kesim Makinesi
+                            </p>
+                          </td>
+                          <td>
+                            <p>STAR</p>
+                          </td>
+                          <td>
+                            <p>Kitamura</p>
+                          </td>
+                          <td>
+                            <p>13.Ocak.2021</p>
+                          </td>
+                          <td>
+                            <p class="bold">₺210.000</p>
+                          </td>
+                          <td><i class="fas fa-star text-yellow"></i></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img
+                              class="img-fluid w-100"
+                              src="images/table-img.png"
+                              alt=""
+                            />
+                          </td>
+                          <td>
+                            <span>CNC İşleme Merkezi</span>
+                            <p>
+                              Robokut <br />
+                              45 A Plazma Kesim Makinesi
+                            </p>
+                          </td>
+                          <td>
+                            <p>STAR</p>
+                          </td>
+                          <td>
+                            <p>Kitamura</p>
+                          </td>
+                          <td>
+                            <p>13.Ocak.2021</p>
+                          </td>
+                          <td>
+                            <p class="bold">₺210.000</p>
+                          </td>
+                          <td><i class="far fa-star"></i></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img
+                              class="img-fluid w-100"
+                              src="images/table-img.png"
+                              alt=""
+                            />
+                          </td>
+                          <td>
+                            <span>CNC İşleme Merkezi</span>
+                            <p>
+                              Robokut <br />
+                              45 A Plazma Kesim Makinesi
+                            </p>
+                          </td>
+                          <td>
+                            <p>STAR</p>
+                          </td>
+                          <td>
+                            <p>Kitamura</p>
+                          </td>
+                          <td>
+                            <p>13.Ocak.2021</p>
+                          </td>
+                          <td>
+                            <p class="bold">₺210.000</p>
+                          </td>
+                          <td><i class="fas fa-star text-yellow"></i></td>
+                        </tr>
+                          <td>
+                            <img
+                              class="img-fluid w-100"
+                              src="images/table-img.png"
+                              alt=""
+                            />
+                          </td>
+                          <td>
+                            <span>CNC İşleme Merkezi</span>
+                            <p>
+                              Robokut <br />
+                              45 A Plazma Kesim Makinesi
+                            </p>
+                          </td>
+                          <td>
+                            <p>STAR</p>
+                          </td>
+                          <td>
+                            <p>Kitamura</p>
+                          </td>
+                          <td>
+                            <p>13.Ocak.2021</p>
+                          </td>
+                          <td>
+                            <p class="bold">₺210.000</p>
+                          </td>
+                          <td><i class="far fa-star"></i></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img
+                              class="img-fluid w-100"
+                              src="images/table-img.png"
+                              alt=""
+                            />
+                          </td>
+                          <td>
+                            <span>CNC İşleme Merkezi</span>
+                            <p>
+                              Robokut <br />
+                              45 A Plazma Kesim Makinesi
+                            </p>
+                          </td>
+                          <td>
+                            <p>STAR</p>
+                          </td>
+                          <td>
+                            <p>Kitamura</p>
+                          </td>
+                          <td>
+                            <p>13.Ocak.2021</p>
+                          </td>
+                          <td>
+                            <p class="bold">₺210.000</p>
+                          </td>
+                          <td><i class="fas fa-star text-yellow"></i></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img
+                              class="img-fluid w-100"
+                              src="images/table-img.png"
+                              alt=""
+                            />
+                          </td>
+                          <td>
+                            <span>CNC İşleme Merkezi</span>
+                            <p>
+                              Robokut <br />
+                              45 A Plazma Kesim Makinesi
+                            </p>
+                          </td>
+                          <td>
+                            <p>STAR</p>
+                          </td>
+                          <td>
+                            <p>Kitamura</p>
+                          </td>
+                          <td>
+                            <p>13.Ocak.2021</p>
+                          </td>
+                          <td>
+                            <p class="bold">₺210.000</p>
+                          </td>
+                          <td><i class="far fa-star"></i></td>
+                        </tr>
+                      </table>
+                      <div class="mt-5 d-flex justify-content-center">
+                        <ul class="pagination">
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                            </a>
+                          </li>
+                          <li class="page-item">
+                            <a class="page-link active" href="#">1</a>
+                          </li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">2</a>
+                          </li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                          </li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">...</a>
+                          </li>
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                    <div class="mt-5 d-flex justify-content-center">
-                    <ul class="pagination">
-                        <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                        </a>
-                        </li>
-                        <li class="page-item">
-                        <a class="page-link active" href="#">1</a>
-                        </li>
-                        <li class="page-item">
-                        <a class="page-link" href="#">2</a>
-                        </li>
-                        <li class="page-item">
-                        <a class="page-link" href="#">3</a>
-                        </li>
-                        <li class="page-item">
-                        <a class="page-link" href="#">...</a>
-                        </li>
-                        <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                        </a>
-                        </li>
-                    </ul>
+                    <div class="col-md-12 listing-v2" id="collapseTwo"  class="collapse" aria-labelledby="headingTwo" data-parent="#listing-accordion">
+                      <div class="row">
+                          <div class="col-md-4">
+                              <div class="card mb-4">
+                                  <div class="position-relative">
+                                      <img src="images/card-img.png" class="card-img-top" alt="card-img">
+                                      <div class="card-price">
+                                          <h4>₺ 210.000</h4>
+                                      </div>
+                                  </div>
+                                  <div class="card-body">
+                                      <p class="card-date mb-1">12 Ocak 2021</p>
+                                      <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                      <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                                      <div class="card-features">
+                                          <div class="row">
+                                              <div class="col-md-4 border-right">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 border-right text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card mb-4">
+                                  <div class="position-relative">
+                                      <img src="images/card-img.png" class="card-img-top" alt="card-img">
+                                      <div class="card-price">
+                                          <h4>₺ 210.000</h4>
+                                      </div>
+                                  </div>
+                                  <div class="card-body">
+                                      <p class="card-date mb-1">12 Ocak 2021</p>
+                                      <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                      <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                                      <div class="card-features">
+                                          <div class="row">
+                                              <div class="col-md-4 border-right">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 border-right text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card mb-4">
+                                  <div class="position-relative">
+                                      <img src="images/card-img.png" class="card-img-top" alt="card-img">
+                                      <div class="card-price">
+                                          <h4>₺ 210.000</h4>
+                                      </div>
+                                  </div>
+                                  <div class="card-body">
+                                      <p class="card-date mb-1">12 Ocak 2021</p>
+                                      <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                      <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                                      <div class="card-features">
+                                          <div class="row">
+                                              <div class="col-md-4 border-right">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 border-right text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card mb-4">
+                                  <div class="position-relative">
+                                      <img src="images/card-img.png" class="card-img-top" alt="card-img">
+                                      <div class="card-price">
+                                          <h4>₺ 210.000</h4>
+                                      </div>
+                                  </div>
+                                  <div class="card-body">
+                                      <p class="card-date mb-1">12 Ocak 2021</p>
+                                      <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                      <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                                      <div class="card-features">
+                                          <div class="row">
+                                              <div class="col-md-4 border-right">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 border-right text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card mb-4">
+                                  <div class="position-relative">
+                                      <img src="images/card-img.png" class="card-img-top" alt="card-img">
+                                      <div class="card-price">
+                                          <h4>₺ 210.000</h4>
+                                      </div>
+                                  </div>
+                                  <div class="card-body">
+                                      <p class="card-date mb-1">12 Ocak 2021</p>
+                                      <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                      <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                                      <div class="card-features">
+                                          <div class="row">
+                                              <div class="col-md-4 border-right">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 border-right text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card mb-4">
+                                  <div class="position-relative">
+                                      <img src="images/card-img.png" class="card-img-top" alt="card-img">
+                                      <div class="card-price">
+                                          <h4>₺ 210.000</h4>
+                                      </div>
+                                  </div>
+                                  <div class="card-body">
+                                      <p class="card-date mb-1">12 Ocak 2021</p>
+                                      <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                      <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                                      <div class="card-features">
+                                          <div class="row">
+                                              <div class="col-md-4 border-right">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 border-right text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card mb-4">
+                                  <div class="position-relative">
+                                      <img src="images/card-img.png" class="card-img-top" alt="card-img">
+                                      <div class="card-price">
+                                          <h4>₺ 210.000</h4>
+                                      </div>
+                                  </div>
+                                  <div class="card-body">
+                                      <p class="card-date mb-1">12 Ocak 2021</p>
+                                      <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                      <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                                      <div class="card-features">
+                                          <div class="row">
+                                              <div class="col-md-4 border-right">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 border-right text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card mb-4">
+                                  <div class="position-relative">
+                                      <img src="images/card-img.png" class="card-img-top" alt="card-img">
+                                      <div class="card-price">
+                                          <h4>₺ 210.000</h4>
+                                      </div>
+                                  </div>
+                                  <div class="card-body">
+                                      <p class="card-date mb-1">12 Ocak 2021</p>
+                                      <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                      <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                                      <div class="card-features">
+                                          <div class="row">
+                                              <div class="col-md-4 border-right">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 border-right text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card mb-4">
+                                  <div class="position-relative">
+                                      <img src="images/card-img.png" class="card-img-top" alt="card-img">
+                                      <div class="card-price">
+                                          <h4>₺ 210.000</h4>
+                                      </div>
+                                  </div>
+                                  <div class="card-body">
+                                      <p class="card-date mb-1">12 Ocak 2021</p>
+                                      <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                      <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                                      <div class="card-features">
+                                          <div class="row">
+                                              <div class="col-md-4 border-right">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 border-right text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                              <div class="col-md-4 text-center">
+                                                  <i class="fas fa-tag"></i>
+                                                  <span>Marka <br> Star</span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="mt-5 d-flex justify-content-center">
+                      <ul class="pagination">
+                          <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                          </a>
+                          </li>
+                          <li class="page-item">
+                          <a class="page-link active" href="#">1</a>
+                          </li>
+                          <li class="page-item">
+                          <a class="page-link" href="#">2</a>
+                          </li>
+                          <li class="page-item">
+                          <a class="page-link" href="#">3</a>
+                          </li>
+                          <li class="page-item">
+                          <a class="page-link" href="#">...</a>
+                          </li>
+                          <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                          </a>
+                          </li>
+                      </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1014,71 +1057,691 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <footer>
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-md-3 left-column">
-            <img src="images/logo-footer.png" alt="" />
-            <h6>Sıfırgibimakine.com</h6>
-            <p>
-              Çerkeşliosb Mah. İmes-17 Cad. Küçük Sanayi Sitesi D5 No: 12 İç
-              Kapı No: 1 Dilovası – Kocaeli
-            </p>
+      <div class="sgm-makine-liste mobile">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="mobile-collapse">
+                <div class="filter-sort-bar">
+                  <button class="btn btn-outline-success filter-collapse-button" type="button" data-toggle="collapse" data-target="#mobileCollapse" aria-expanded="false" aria-controls="mobileCollapse">
+                    <i class="fas fa-filter"></i>
+                    Filtreler (3)
+                  </button>
+                  <div class="sgm-makine-liste p-0">
+                    <div class="boxes-filter">
+                      <div class="form-group mb-0">
+                        <label for="exampleFormControlSelect1">Sırala</label>
+                        <select class="form-control" id="sirala">
+                          <option>Yeni eklenenler</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-12-14-500 text-gray-light mt-3">
+                  <strong class="text-dark">10204</strong> adet ilan
+                  görüntüleniyor
+                </p>
+                <div class="collapse" id="mobileCollapse">
+                  <div class="card">
+                    <div class="card-header">Marka Seçiniz</div>
+                      <div class="card-body">
+                        <form>
+                          <div class="form-group">
+                            <select class="form-control" id="marka-1">
+                              <option>Kategori</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <select class="form-control" id="marka-1">
+                              <option>Marka</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <select class="form-control" id="marka-1">
+                              <option>Model</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  <div class="card mt-3">
+                    <div class="card-header">Filtreler</div>
+                    <div class="card-body bg-light">
+                      <p>Lokasyon</p>
+                      <form>
+                        <div class="form-group">
+                          <select class="form-control" id="marka-1">
+                            <option>Kategori</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <select class="form-control" id="marka-1">
+                            <option>Marka</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <select class="form-control" id="marka-1">
+                            <option>Model</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="card-body bg-light">
+                      <p>Fiyat</p>
+                      <form>
+                        <div class="form-group">
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="min-tutar"
+                            placeholder="Min Tutar"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="max-tutar"
+                            placeholder="Max Tutar"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div class="card-body bg-light">
+                      <p>Yıl</p>
+                      <form>
+                        <div class="form-group">
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="min-tutar"
+                            placeholder="Min"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="max-tutar"
+                            placeholder="Max"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div class="card-body bg-light">
+                      <p>Fotoğraf ve Video</p>
+                      <form>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="fotografli-ilan"
+                          />
+                          <label class="form-check-label" for="fotografli-ilan">
+                            Videolu İlanlar
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="videolu-ilan"
+                          />
+                          <label class="form-check-label" for="videolu-ilan">
+                            Fotoğraflı İlanlar
+                          </label>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="card-body p-0">
+                      <button class="btn btn-success btn-block filtreleri-uygula">
+                        Filtreleri Uygula
+                      </button>
+                      <div class="filtreleri-sifirla">
+                        <a href="#"> FİLTRE AYARLARINI SIFIRLA </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-3 footer-links">
-            <h6>Satış</h6>
-            <a href="#">
-              <p>İlan Ver</p>
-            </a>
-            <a href="#">
-              <p>İlanları Yönet</p>
-            </a>
-            <a href="#">
-              <p>İlan Ayırt</p>
-            </a>
-          </div>
-          <div class="col-md-3 footer-links">
-            <h6>Kurumsal</h6>
-            <a href="#">
-              <p>Bilgi Güvenlik Politikası</p>
-            </a>
-            <a href="#">
-              <p>KVKK</p>
-            </a>
-            <a href="#">
-              <p>Çerez Politikası</p>
-            </a>
-            <a href="#">
-              <p>SSS</p>
-            </a>
-            <a href="#">
-              <p>Bakım</p>
-            </a>
-          </div>
-          <div class="col-md-3 footer-links">
-            <h6>Sosyal Medya</h6>
-            <a href="#">
-              <p>Facebook</p>
-            </a>
-            <a href="#">
-              <p>Instagram</p>
-            </a>
-            <a href="#">
-              <p>Twitter</p>
-            </a>
+          <div class="row">
+            
+            <div class="col-12">
+              <div class="makine-liste-list-item">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-5">
+                      <img class="img-fluid" src="images/makine-liste-card-sm.png" alt="img">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <p class="card-category">CNC İşleme Merkezi</p>
+                        <p class="card-name">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                        <p class="card-price">₺ 210.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12">
+              <div class="makine-liste-list-item">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-5">
+                      <img class="img-fluid" src="images/makine-liste-card-sm.png" alt="img">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <p class="card-category">CNC İşleme Merkezi</p>
+                        <p class="card-name">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                        <p class="card-price">₺ 210.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12">
+              <div class="makine-liste-list-item">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-5">
+                      <img class="img-fluid" src="images/makine-liste-card-sm.png" alt="img">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <p class="card-category">CNC İşleme Merkezi</p>
+                        <p class="card-name">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                        <p class="card-price">₺ 210.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12">
+              <div class="makine-liste-list-item">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-5">
+                      <img class="img-fluid" src="images/makine-liste-card-sm.png" alt="img">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <p class="card-category">CNC İşleme Merkezi</p>
+                        <p class="card-name">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                        <p class="card-price">₺ 210.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12">
+              <div class="makine-liste-list-item">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-5">
+                      <img class="img-fluid" src="images/makine-liste-card-sm.png" alt="img">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <p class="card-category">CNC İşleme Merkezi</p>
+                        <p class="card-name">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                        <p class="card-price">₺ 210.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12">
+              <div class="makine-liste-list-item">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-5">
+                      <img class="img-fluid" src="images/makine-liste-card-sm.png" alt="img">
+                    </div>
+                    <div class="col-7">
+                      <div class="card-body">
+                        <p class="card-category">CNC İşleme Merkezi</p>
+                        <p class="card-name">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                        <p class="card-price">₺ 210.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 sm-pr-8">
+              <div class="makine-liste-card">
+                <div class="card">
+                  <img src="images/makine-liste-card-sm.png" class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <p class="card-date">
+                      12 Ocak 2021
+                    </p>
+                    <p class="card-category">
+                      CNC İşleme Merkezi
+                    </p>
+                    <p class="card-name">
+                      Robokut <br> 45 A Plazma Kesim Makinesi
+                    </p>
+                    <div class="card-features">
+                      <div class="row">
+                          <div class="col-12">
+                              <div class="box">
+                                <i class="fas fa-tag"></i>
+                                <span><strong>Marka</strong> Star</span>
+                              </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Kitamura</span>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Yılı 1998</span>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 sm-pl-8">
+              <div class="makine-liste-card">
+                <div class="card">
+                  <img src="images/makine-liste-card-sm.png" class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <p class="card-date">
+                      12 Ocak 2021
+                    </p>
+                    <p class="card-category">
+                      CNC İşleme Merkezi
+                    </p>
+                    <p class="card-name">
+                      Robokut <br> 45 A Plazma Kesim Makinesi
+                    </p>
+                    <div class="card-features">
+                      <div class="row">
+                          <div class="col-12">
+                              <div class="box">
+                                <i class="fas fa-tag"></i>
+                                <span><strong>Marka</strong> Star</span>
+                              </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Kitamura</span>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Yılı 1998</span>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 sm-pr-8">
+              <div class="makine-liste-card">
+                <div class="card">
+                  <img src="images/makine-liste-card-sm.png" class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <p class="card-date">
+                      12 Ocak 2021
+                    </p>
+                    <p class="card-category">
+                      CNC İşleme Merkezi
+                    </p>
+                    <p class="card-name">
+                      Robokut <br> 45 A Plazma Kesim Makinesi
+                    </p>
+                    <div class="card-features">
+                      <div class="row">
+                          <div class="col-12">
+                              <div class="box">
+                                <i class="fas fa-tag"></i>
+                                <span><strong>Marka</strong> Star</span>
+                              </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Kitamura</span>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Yılı 1998</span>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 sm-pl-8">
+              <div class="makine-liste-card">
+                <div class="card">
+                  <img src="images/makine-liste-card-sm.png" class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <p class="card-date">
+                      12 Ocak 2021
+                    </p>
+                    <p class="card-category">
+                      CNC İşleme Merkezi
+                    </p>
+                    <p class="card-name">
+                      Robokut <br> 45 A Plazma Kesim Makinesi
+                    </p>
+                    <div class="card-features">
+                      <div class="row">
+                          <div class="col-12">
+                              <div class="box">
+                                <i class="fas fa-tag"></i>
+                                <span><strong>Marka</strong> Star</span>
+                              </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Kitamura</span>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Yılı 1998</span>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 sm-pr-8">
+              <div class="makine-liste-card">
+                <div class="card">
+                  <img src="images/makine-liste-card-sm.png" class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <p class="card-date">
+                      12 Ocak 2021
+                    </p>
+                    <p class="card-category">
+                      CNC İşleme Merkezi
+                    </p>
+                    <p class="card-name">
+                      Robokut <br> 45 A Plazma Kesim Makinesi
+                    </p>
+                    <div class="card-features">
+                      <div class="row">
+                          <div class="col-12">
+                              <div class="box">
+                                <i class="fas fa-tag"></i>
+                                <span><strong>Marka</strong> Star</span>
+                              </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Kitamura</span>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Yılı 1998</span>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 sm-pl-8">
+              <div class="makine-liste-card">
+                <div class="card">
+                  <img src="images/makine-liste-card-sm.png" class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <p class="card-date">
+                      12 Ocak 2021
+                    </p>
+                    <p class="card-category">
+                      CNC İşleme Merkezi
+                    </p>
+                    <p class="card-name">
+                      Robokut <br> 45 A Plazma Kesim Makinesi
+                    </p>
+                    <div class="card-features">
+                      <div class="row">
+                          <div class="col-12">
+                              <div class="box">
+                                <i class="fas fa-tag"></i>
+                                <span><strong>Marka</strong> Star</span>
+                              </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Kitamura</span>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Yılı 1998</span>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 sm-pr-8">
+              <div class="makine-liste-card">
+                <div class="card">
+                  <img src="images/makine-liste-card-sm.png" class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <p class="card-date">
+                      12 Ocak 2021
+                    </p>
+                    <p class="card-category">
+                      CNC İşleme Merkezi
+                    </p>
+                    <p class="card-name">
+                      Robokut <br> 45 A Plazma Kesim Makinesi
+                    </p>
+                    <div class="card-features">
+                      <div class="row">
+                          <div class="col-12">
+                              <div class="box">
+                                <i class="fas fa-tag"></i>
+                                <span><strong>Marka</strong> Star</span>
+                              </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Kitamura</span>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Yılı 1998</span>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 sm-pl-8">
+              <div class="makine-liste-card">
+                <div class="card">
+                  <img src="images/makine-liste-card-sm.png" class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <p class="card-date">
+                      12 Ocak 2021
+                    </p>
+                    <p class="card-category">
+                      CNC İşleme Merkezi
+                    </p>
+                    <p class="card-name">
+                      Robokut <br> 45 A Plazma Kesim Makinesi
+                    </p>
+                    <div class="card-features">
+                      <div class="row">
+                          <div class="col-12">
+                              <div class="box">
+                                <i class="fas fa-tag"></i>
+                                <span><strong>Marka</strong> Star</span>
+                              </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Kitamura</span>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="box">
+                              <i class="fas fa-tag"></i>
+                              <span><strong>Model</strong> Yılı 1998</span>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="container footer-bottom">
-        <div class="row">
-          <div class="col-md-12">
-            <p>Tüm Hakları © 2021, Sıfırgibimakine.com</p>
+  
+      <footer>
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-3 left-column">
+              <img src="images/logo-footer.png" alt="" />
+              <h6>Sıfırgibimakine.com</h6>
+              <p>
+                Çerkeşliosb Mah. İmes-17 Cad. Küçük Sanayi Sitesi D5 No: 12 İç
+                Kapı No: 1 Dilovası – Kocaeli
+              </p>
+            </div>
+            <div class="col-md-3 footer-links">
+              <h6>Satış</h6>
+              <a href="#">
+                <p>İlan Ver</p>
+              </a>
+              <a href="#">
+                <p>İlanları Yönet</p>
+              </a>
+              <a href="#">
+                <p>İlan Ayırt</p>
+              </a>
+            </div>
+            <div class="col-md-3 footer-links">
+              <h6>Kurumsal</h6>
+              <a href="#">
+                <p>Bilgi Güvenlik Politikası</p>
+              </a>
+              <a href="#">
+                <p>KVKK</p>
+              </a>
+              <a href="#">
+                <p>Çerez Politikası</p>
+              </a>
+              <a href="#">
+                <p>SSS</p>
+              </a>
+              <a href="#">
+                <p>Bakım</p>
+              </a>
+            </div>
+            <div class="col-md-3 footer-links">
+              <h6>Sosyal Medya</h6>
+              <a href="#">
+                <p>Facebook</p>
+              </a>
+              <a href="#">
+                <p>Instagram</p>
+              </a>
+              <a href="#">
+                <p>Twitter</p>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+        <div class="container footer-bottom">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Tüm Hakları © 2021, Sıfırgibimakine.com</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
