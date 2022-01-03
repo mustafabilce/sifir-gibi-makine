@@ -530,7 +530,7 @@ body {
 .sgm-kategorileri .owl-carousel .owl-nav {
   position: absolute;
   top: 0;
-  right: 350px;
+  right: 180px;
   margin-top: -80px;
 }
 
@@ -706,7 +706,7 @@ body {
 .sgm-yeni-eklenenler .owl-carousel .owl-nav {
   position: absolute;
   top: 0;
-  right: 350px;
+  right: 180px;
   margin-top: -80px;
 }
 

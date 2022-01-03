@@ -10,9 +10,11 @@ $("#banner-slider").owlCarousel({
 });
 
 $("#kategori-slider").owlCarousel({
-  loop: true,
+  loop: false,
   autoplay: false,
   margin: 20,
+  center: true,
+  startPosition: 1,
   nav: true,
   dots: false,
   responsive: {
@@ -28,7 +30,9 @@ $("#kategori-slider").owlCarousel({
 });
 
 $("#yeni-eklenenler-slider").owlCarousel({
-  loop: true,
+  loop: false,
+  center: true,
+  startPosition: 1,
   autoplay: false,
   margin: 20,
   nav: true,
