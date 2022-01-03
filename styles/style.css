@@ -3289,9 +3289,7 @@ footer .container {
   left: 0;
   top: 0;
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,.3) 96%);
-  /* background-color: rgba(0, 0, 0, 0.2); */
-  border: 1px solid #28a745;
-  border-radius: .25rem;
+  /* border: 1px solid #28a745; */
   z-index: 99;
   display: flex;
   align-items: flex-end;
@@ -3345,6 +3343,29 @@ footer .container {
   color: #44b276;
 }
 
+#slider-item-1-left {
+  display: none;
+}
+
+#slider-item-1-right {
+  display: block;
+}
+
+#slider-item-2-left {
+  display: none;
+}
+
+#slider-item-2-right {
+  display: block;
+}
+
+#slider-item-3-left {
+  display: none;
+}
+
+#slider-item-3-right {
+  display: block;
+}
 
 
 
