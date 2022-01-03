@@ -421,6 +421,10 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
+.neden-sifir-gibi-makine .neden-card:hover .hovered-d-none {
+  visibility: visible;
+}
+
 .sgm-degerler .title {
   font-size: 42px;
   line-height: 51px;
@@ -526,7 +530,7 @@ body {
 .sgm-kategorileri .owl-carousel .owl-nav {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 350px;
   margin-top: -80px;
 }
 
@@ -702,7 +706,7 @@ body {
 .sgm-yeni-eklenenler .owl-carousel .owl-nav {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 350px;
   margin-top: -80px;
 }
 
@@ -730,6 +734,10 @@ body {
   line-height: 17px;
   font-weight: 500;
   float: right;
+}
+
+.sgm-yeni-eklenenler .owl-stage {
+  margin-bottom: 20px;
 }
 
 #ihalelerimiz-slider .ihale-sure {
@@ -3255,8 +3263,87 @@ footer .container {
   margin: 0 0 50px;
 }
 
+.hovered-d-none {
+  visibility: hidden;
+}
 
+.carousel-container {
+  margin-left: 150px !important;
+}
 
+.slider-bg-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.slider-bg-button {
+  width: 100%;
+  position: relative;
+  z-index: 9;
+}
+
+.slider-bg-button .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,.3) 96%);
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  border: 1px solid #28a745;
+  border-radius: .25rem;
+  z-index: 99;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.slider-bg-button .overlay img {
+  max-height: 100px;
+  margin-bottom: 20px;
+}
+
+.banner-slider img {
+  max-height: 580px;
+}
+
+.banner-slider .slider-text {
+  position: absolute;
+  left: 200px;
+  top: 156px;
+  display: inline-block !important;
+  text-align: left;
+}
+
+.banner-slider h5 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 600;
+  color: #202020;
+  margin-bottom: 35px;
+}
+
+.banner-slider p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #202020;
+  margin-bottom: 24px;
+}
+
+.banner-slider p span {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #44b276;
+}
+
+.banner-slider a {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+  color: #44b276;
+}
 
 
 

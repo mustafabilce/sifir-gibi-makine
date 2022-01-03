@@ -1,3 +1,14 @@
+$("#banner-slider").owlCarousel({
+  items:1,
+  loop:false,
+  center:true,
+  margin:10,
+  dots: false,
+  URLhashListener:true,
+  autoplayHoverPause:true,
+  startPosition: 'URLHash'
+});
+
 $("#kategori-slider").owlCarousel({
   loop: true,
   autoplay: false,
@@ -11,7 +22,7 @@ $("#kategori-slider").owlCarousel({
       dots: true,
     },
     768: {
-      items: 3,
+      items: 4,
     },
   },
 });
@@ -26,10 +37,10 @@ $("#yeni-eklenenler-slider").owlCarousel({
     0: {
       items: 2,
       nav: false,
-      dots: true
+      dots: true,
     },
     768: {
-      items: 3,
+      items: 4,
     },
   },
 });
@@ -44,7 +55,7 @@ $("#ihalelerimiz-slider").owlCarousel({
     0: {
       items: 2,
       nav: false,
-      dots: true
+      dots: true,
     },
     768: {
       items: 3,
@@ -62,7 +73,7 @@ $("#blog-slider").owlCarousel({
     0: {
       items: 2,
       nav: false,
-      dots: true
+      dots: true,
     },
     768: {
       items: 3,
@@ -123,12 +134,36 @@ setInterval(countdown, 1000);
 
 /* Flip Card */
 
-$('.flip-button').on('click', function () {
-  $('.front').toggleClass('d-none');
-  $('.back').toggleClass('d-block');
+$(".flip-button").on("click", function () {
+  $(".front").toggleClass("d-none");
+  $(".back").toggleClass("d-block");
 });
 
-$('.flip-button-2').on('click', function () {
-  $('.front').toggleClass('d-none');
-  $('.back').toggleClass('d-block');
+$(".flip-button-2").on("click", function () {
+  $(".front").toggleClass("d-none");
+  $(".back").toggleClass("d-block");
+});
+
+/* OTHER COUNTER */
+
+$(".counting").each(function () {
+  var $this = $(this),
+    countTo = $this.attr("data-count");
+
+  $({ countNum: $this.text() }).animate(
+    {
+      countNum: countTo,
+    },
+
+    {
+      duration: 3000,
+      easing: "linear",
+      step: function () {
+        $this.text(Math.floor(this.countNum));
+      },
+      complete: function () {
+        $this.text(this.countNum);
+      },
+    }
+  );
 });

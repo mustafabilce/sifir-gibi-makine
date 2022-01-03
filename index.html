@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -111,7 +112,62 @@
         </div>
     </nav>
 
-    <div id="main-carousel" class="carousel slide" data-ride="carousel">
+    <div class="banner-slider">
+        <div class="row">
+            <div class="col-md-10 px-0">
+                <div class="owl-carousel owl-theme" id="banner-slider">
+                    <div class="item" data-hash="banner-1">
+                        <img src="images/carousel/1.png" alt="">
+                        <div class="slider-text">
+                            <h5>Spinner CNC Torna <br> Sifirgibimakina.com'da Satışta!</h5>
+                            <p>2012 model Spinner CNC Torna şimdi <br> <span>sıfırgibimakine.com</span> ’da! Detayları incelemek satıcıyla <br> iletişime geçmek için ilanı inceleyebilirsiniz. 48000 USD</p>
+                            <a href="#">Daha Fazla <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="item" data-hash="banner-2">
+                        <img src="images/carousel/2.png" alt="">
+                        <div class="slider-text">
+                            <h5 class="text-light">Türkiyenin Sıfır Gibi 2. El Sitesi</h5>
+                            <p class="text-light">Aradığınız tüm modeller şimdi <br> <span>sıfırgibimakine.com</span> ’da! Detayları incelemek ihtiyacınız <br> olan makineyi bulmak için ilanlara bakmayı unutmayın. </p>
+                            <a href="#">Daha Fazla <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="item" data-hash="banner-3">
+                        <img src="images/carousel/3.png" alt="">
+                        <div class="slider-text">
+                            <h5 class="text-light">Spinner CNC Torna <br> Sifirgibimakina.com'da Satışta!</h5>
+                            <p class="text-light">2012 model Spinner CNC Torna şimdi <br> <span>sıfırgibimakine.com</span> ’da! Detayları incelemek satıcıyla <br> iletişime geçmek için ilanı inceleyebilirsiniz. 48000 USD</p>
+                            <a href="#">Daha Fazla <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 px-0">
+                <div class="slider-bg-buttons">
+                    <a href="#banner-1" class="slider-bg-button">
+                        <img class="img-fluid w-100" src="images/slider-dikey-1.png" alt="">
+                        <div class="overlay">
+                            <img src="images/logo-dikey.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#banner-2" class="slider-bg-button">
+                        <img class="img-fluid w-100" src="images/slider-dikey-2.png" alt="">
+                        <div class="overlay">
+                            <img src="images/logo-dikey.png" alt="">
+                        </div>
+                    </a>
+                    <a href="#banner-3" class="slider-bg-button">
+                        <img class="img-fluid w-100" src="images/slider-dikey-3.png" alt="">
+                        <div class="overlay">
+                            <img src="images/logo-dikey.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="main-carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -143,17 +199,9 @@
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </button>
-    </div>
+    </div> -->
 
-    <div class="makine-al-sat">
+    <div class="makine-al-sat d-none">
         <div class="container">
             <div class="overlay"></div>
             <div class="row align-items-center">
@@ -469,7 +517,7 @@
                             <img src="images/neden-icon.png" alt="">
                             <h5 class="card-title">Açık Arttırmaya Nasıl Katılabilirim?</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  </p>
-                            <a href="#" class="card-link">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
+                            <a href="#" class="card-link hovered-d-none">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -479,7 +527,7 @@
                             <img src="images/neden-icon.png" alt="">
                             <h5 class="card-title">Açık Arttırmaya Nasıl Katılabilirim?</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  </p>
-                            <a href="#" class="card-link">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
+                            <a href="#" class="card-link hovered-d-none">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -489,7 +537,7 @@
                             <img src="images/neden-icon.png" alt="">
                             <h5 class="card-title">Açık Arttırmaya Nasıl Katılabilirim?</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  </p>
-                            <a href="#" class="card-link">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
+                            <a href="#" class="card-link hovered-d-none">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -499,7 +547,7 @@
                             <img src="images/neden-icon.png" alt="">
                             <h5 class="card-title">Açık Arttırmaya Nasıl Katılabilirim?</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  </p>
-                            <a href="#" class="card-link">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
+                            <a href="#" class="card-link hovered-d-none">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -509,7 +557,7 @@
                             <img src="images/neden-icon.png" alt="">
                             <h5 class="card-title">Açık Arttırmaya Nasıl Katılabilirim?</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  </p>
-                            <a href="#" class="card-link">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
+                            <a href="#" class="card-link hovered-d-none">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -519,7 +567,7 @@
                             <img src="images/neden-icon.png" alt="">
                             <h5 class="card-title">Açık Arttırmaya Nasıl Katılabilirim?</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  </p>
-                            <a href="#" class="card-link">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
+                            <a href="#" class="card-link hovered-d-none">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -529,7 +577,7 @@
                             <img src="images/neden-icon.png" alt="">
                             <h5 class="card-title">Açık Arttırmaya Nasıl Katılabilirim?</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  </p>
-                            <a href="#" class="card-link">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
+                            <a href="#" class="card-link hovered-d-none">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -539,7 +587,7 @@
                             <img src="images/neden-icon.png" alt="">
                             <h5 class="card-title">Açık Arttırmaya Nasıl Katılabilirim?</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  </p>
-                            <a href="#" class="card-link">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
+                            <a href="#" class="card-link hovered-d-none">Daha Fazla Bilgi <i class="fas fa-chevron-right ml-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -556,19 +604,19 @@
             </div>
             <div class="row mt-4 countdown">
                 <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <h4>67</h4>
+                    <h4 class="counting" data-count="67">0</h4>
                     <p>Adet Makine Satıldı</p>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <h4>13934</h4>
+                    <h4 class="counting" data-count="13934">0</h4>
                     <p>Kişi Üye Oldu</p>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <h4>16</h4>
+                    <h4 class="counting" data-count="16">0</h4>
                     <p>Kişi Açık Arttırmaya Katıldı</p>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <h4>83</h4>
+                    <h4 class="counting" data-count="83">0</h4>
                     <p>Teklif verildi</p>
                 </div>
             </div>
@@ -607,7 +655,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="exampleFormControlSelect1">Makine Modeli</label>
+                                    <label for="exampleFormControlSelect1">Makine Markası</label>
                                     <select class="form-control select-input" id="exampleFormControlSelect1">
                                       <option>Seçiniz</option>
                                       <option>2</option>
@@ -641,8 +689,8 @@
         </div>
     </div>
 
-    <div class="sgm-kategorileri">
-        <div class="container py-6 sm-py-40px">
+    <div class="sgm-kategorileri py-6 sm-py-40px">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h4 class="title">
@@ -650,6 +698,8 @@
                     </h4>
                 </div>
             </div>
+        </div>
+        <div class="container-fluid carousel-container">
             <div class="row mt-4">
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme" id="kategori-slider">
@@ -779,12 +829,14 @@
     </div>
 
     <div class="sgm-yeni-eklenenler">
-        <div class="container py-5">
+        <div class="container pt-5">
             <div class="row">
                 <div class="col-md-12">
                     <h4 class="title">Yeni Eklenenler</h4>
                 </div>
             </div>
+        </div>
+        <div class="container-fluid carousel-container">
             <div class="row mt-4">
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme" id="yeni-eklenenler-slider">
@@ -909,6 +961,67 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card shadow">
+                                <div class="position-relative">
+                                    <img src="images/card-yeni-eklenenler.png" class="card-img-top" alt="card-img">
+                                    <div class="card-price">
+                                        <h4>₺ 210.000</h4>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-date mb-1">12 Ocak 2021</p>
+                                    <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                    <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                                    <div class="card-features">
+                                        <div class="row">
+                                            <div class="col-4 border-right sm-text-center">
+                                                <i class="fas fa-tag"></i>
+                                                <span class="fs-8px ln-8px">Marka Star</span>
+                                            </div>
+                                            <div class="col-4 border-right text-center sm-text-center">
+                                                <i class="fas fa-tag"></i>
+                                                <span class="fs-8px ln-8px">Marka Star</span>
+                                            </div>
+                                            <div class="col-4 text-center sm-text-center">
+                                                <i class="fas fa-tag"></i>
+                                                <span class="fs-8px ln-8px">Marka Star</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card shadow">
+                                <div class="position-relative">
+                                    <img src="images/card-yeni-eklenenler.png" class="card-img-top" alt="card-img">
+                                    <div class="card-price">
+                                        <h4>₺ 210.000</h4>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-date mb-1">12 Ocak 2021</p>
+                                    <p class="card-work mb-1">CNC İşleme Merkesi</p>
+                                    <p class="card-type mb-3">Robokut <br> 45 A Plazma Kesim Makinesi</p>
+                                    <div class="card-features">
+                                        <div class="row">
+                                            <div class="col-4 border-right sm-text-center">
+                                                <i class="fas fa-tag"></i>
+                                                <span class="fs-8px ln-8px">Marka Star</span>
+                                            </div>
+                                            <div class="col-4 border-right text-center sm-text-center">
+                                                <i class="fas fa-tag"></i>
+                                                <span class="fs-8px ln-8px">Marka Star</span>
+                                            </div>
+                                            <div class="col-4 text-center sm-text-center">
+                                                <i class="fas fa-tag"></i>
+                                                <span class="fs-8px ln-8px">Marka Star</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -924,7 +1037,7 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-12">
-                    <h4 class="title">İhalelerimiz</h4>
+                    <h4 class="title">Sıfır Gibi İhale</h4>
                 </div>
             </div>
             <div class="row mt-4">
@@ -1139,5 +1252,9 @@
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
