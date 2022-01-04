@@ -710,6 +710,13 @@ body {
   margin-top: -80px;
 }
 
+#ihalelerimiz-slider .owl-nav {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  margin-top: -80px;
+}
+
 .sgm-yeni-eklenenler .owl-carousel .owl-nav button {
   font-size: 18px !important;
   background-color: #fff !important;
@@ -740,11 +747,16 @@ body {
   margin-bottom: 20px;
 }
 
+#ihalelerimiz-slider .card img {
+  max-height: 230px;
+}
+
 #ihalelerimiz-slider .ihale-tamamlandi {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -754,6 +766,7 @@ body {
 
 #ihalelerimiz-slider .ihale-tamamlandi .item p {
   color: #fff !important;
+  margin-bottom: 0;
 }
 
 #ihalelerimiz-slider .ihaleye-katil {
@@ -3114,15 +3127,15 @@ footer .container {
   margin-left: 5px;
 }
 
-.tarife .tarife-center .card .card-body button.btn-dark-blue a {
+.tarife .tarife-center .card .card-body a.btn-dark-blue a {
   color: #fff;
 }
 
-.tarife .tarife-center .card .card-body button.btn-dark-blue a:hover {
+.tarife .tarife-center .card .card-body a.btn-dark-blue a:hover {
   text-decoration: none;
 }
 
-.tarife .tarife-center .card .card-body button.btn-dark-blue {
+.tarife .tarife-center .card .card-body a.btn-dark-blue {
   background-color: #232F5F;
   font-size: 14px;
   line-height: 17px;
@@ -3335,6 +3348,367 @@ footer .container {
 #slider-item-3-right {
   display: block;
 }
+
+/* Sıfırgibi Ekspertiz */
+
+.sgm-ekspertiz h3.title {
+  font-size: 42px;
+  line-height: 51px;
+  font-weight: 600;
+  color: #232323;
+}
+
+.sgm-ekspertiz .card {
+  padding: .5rem 1.25rem;
+  text-align: center;
+  box-shadow: 0px 2px 8px rgba(147, 147, 147, 0.2);
+  border-radius: 4px;
+}
+
+.sgm-ekspertiz .card img {
+  max-height: 70px;
+  max-width: 70px;
+}
+
+.sgm-ekspertiz .card h6.title {
+  font-size: 16px;
+  line-height: 19.5px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 26px;
+  margin-bottom: 16px;
+}
+
+.sgm-ekspertiz .card p.text {
+  font-size: 16px;
+  line-height: 19.5px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.sgm-ekspertiz .texts h4.title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 17px;
+}
+
+.sgm-ekspertiz .texts p.text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #0E2435;
+}
+
+.sgm-ekspertiz .btn-success {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  padding: 10px 40px;
+}
+
+.sgm-ekspertiz h4.subtitle {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  color: #232323;
+}
+
+.sgm-ekspertiz .box {
+  background-color: #F2F7F4;
+  padding: 75px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.sgm-ekspertiz .box img {
+  max-width: 55px;
+  max-height: 55px;
+}
+
+.sgm-ekspertiz .box p.text {
+  font-size: 16px;
+  line-height: 19.5px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 26px;
+  margin-bottom: 0px;
+}
+
+.sgm-ekspertiz .box .dots i {
+  font-size: 8px;
+  color: #44B276;
+  margin: 0 10px;
+}
+
+.sgm-ekspertiz .box .dots i:nth-child(2) {
+  font-size: 12px;
+  color: #44B276;
+}
+
+.sgm-ekspertiz .accordion .card {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.sgm-ekspertiz .accordion .card .card-header {
+  background-color: #F2F4F5;
+  padding: 10px 15px;
+  border: none;
+}
+
+.sgm-ekspertiz .accordion .card .card-header button {
+  padding: 0;
+}
+
+.sgm-ekspertiz .accordion .card .card-header .form-check-label {
+  font-size: 12px;
+  line-height: 14.63px;
+  font-weight: 500;
+  color: #282828;
+}
+
+.sgm-ekspertiz .accordion .card .card-body {
+  background-color: #F2F4F5;
+  padding: 10px 15px;
+}
+
+.sgm-ekspertiz .accordion .card .card-body {
+  text-align: left;
+}
+
+.sgm-ekspertiz .accordion .card .card-body p {
+  font-size: 10px;
+  line-height: 23px;
+  font-weight: 500;
+  color: #273F52;
+  margin-bottom: 5px;
+}
+
+.sgm-ekspertiz .accordion .card .card-body i {
+  font-size: 12px;
+  color: #273F52;
+  margin-right: 8px;
+}
+
+.sgm-ekspertiz .select-date .card {
+  padding: 0;
+  text-align: left;
+  border: none;
+}
+
+.sgm-ekspertiz .select-date .card .card-header {
+  background-color: #fff;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.sgm-ekspertiz .select-date .card .card-body {
+  background-color: #F4F4F4;
+  border: none;
+}
+
+.sgm-ekspertiz .select-date .card .card-header h5.title {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+  color: #273F52;
+  margin-bottom: 0;
+}
+
+.sgm-ekspertiz .select-date .card .card-header a {
+  float: right;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 700;
+  color: #273F52;
+}
+
+.sgm-ekspertiz .select-date .card .card-header a i {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.sgm-ekspertiz .select-date .card .card-body p {
+  font-size: 15px;
+  line-height: 19.5px;
+  font-weight: 500;
+  color: #282828;
+}
+
+.sgm-ekspertiz .select-date .card .card-body p:last-child {
+  margin-bottom: 0;
+}
+
+.sgm-ekspertiz .select-date .card .card-body i {
+  font-size: 17px;
+  margin-right: 7px;
+}
+
+.sgm-ekspertiz .date-table .btn-group {
+  display: flex;
+  max-width: 100%;
+}
+
+.sgm-ekspertiz .date-table .btn-link {
+  background-color: #F2F4F5;
+  margin: 5px;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #282828;
+  padding: 15px 35px;
+  text-decoration: none;
+  border-radius: 4px !important;
+}
+
+.sgm-ekspertiz .date-table .btn-green {
+  background-color: #CFE9DB;
+  border-color: #CFE9DB;
+  margin: 5px;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #282828;
+  padding: 15px 35px;
+  text-decoration: none;
+  border-radius: 4px !important;
+}
+
+.sgm-ekspertiz .date-table .btn-green.active {
+  box-shadow: none !important;
+  background-color: #44B276;
+  color: #fff;
+}
+
+.sgm-ekspertiz .btn-group>.btn-group:not(:first-child), .btn-group>.btn:not(:first-child) {
+  margin-left: 5px !important;
+}
+
+.sgm-ekspertiz .profilim .profil-right-box p.label {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #282828;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.sgm-ekspertiz .profilim .profil-right-box .form-title {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #273F52;
+}
+
+.sgm-ekspertiz .profilim .profil-right-box .ekspertiz-checkboxes label {
+  font-size: 12px;
+  line-height: 14.63px;
+  font-weight: 500;
+  color: #282828;
+}
+
+.sgm-ekspertiz .profilim .profil-right-box .ekspertiz-checkboxes label a {
+  font-size: 12px;
+  line-height: 14.63px;
+  font-weight: 500;
+  color: #282828;
+  text-decoration: underline;
+}
+
+.sgm-ekspertiz .profilim .profil-right-box .ekspertiz-checkboxes input {
+  height: auto;
+  margin-top: 6px;
+}
+
+.sgm-ekspertiz .select-date .other-card .card-body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 1.25rem;
+}
+
+.sgm-ekspertiz .select-date .other-card .card-body p {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 19.5px;
+  font-weight: 700;
+  color: #273F52;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+.sgm-ekspertiz .select-date .other-card .card-body p span {
+  font-size: 12px;
+  line-height: 15.6px;
+  font-weight: 500;
+}
+
+.sgm-ekspertiz .select-date .other-card .card-body a {
+  float: right;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 700;
+  color: #273F52;
+}
+
+.sgm-ekspertiz .select-date .other-card .card-body a i {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.sgm-ekspertiz .success .success-icon {
+  font-size: 88px;
+  color: #44B276;
+}
+
+.sgm-ekspertiz .success .success-title {
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #44B276;
+  margin-bottom: 19px;
+}
+
+.sgm-ekspertiz .success .success-text {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #0E2435;
+  margin-bottom: 0px;
+}
+
+.sgm-ekspertiz .success h5.title {
+  font-size: 16px;
+  line-height: 19.5px;
+  font-weight: 700;
+  color: #232F5F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3958,10 +4332,10 @@ footer .container {
 /* ihale süre */
 
 .ihale-sure {
-  background-color: #fff;
+  background-color: transparent;
   width: 100%;
   height: 90px;
-  position: relative;
+  position: absolute;
 }
 
 .ihale-sure .wrap {
@@ -3979,7 +4353,8 @@ footer .container {
   display: inline-block;
   float: left;
   margin-bottom: 0;
-  font-size: 32px;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .ihale-sure .countdown,
@@ -4009,8 +4384,8 @@ footer .container {
 .ihale-sure .figure {
   position: relative;
   float: left;
-  height: 45px;
-  width: 30px;
+  height: 35px;
+  width: 20px;
   margin-right: 10px;
   background-color: #44B276;
   border-radius: 4px;
@@ -4023,9 +4398,9 @@ footer .container {
   left: 0;
   right: 0;
   margin: auto;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 35px;
   color: #fff;
 }
 .ihale-sure .figure .top:after,
