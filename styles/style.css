@@ -1979,6 +1979,32 @@ footer .container {
   max-height: 33px;
 }
 
+
+.login-left .form-group select {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #728899;
+  border-radius: 1px;
+  height: calc(1.5em + 1.15rem + 2px);
+  padding: .275rem .75rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+}
+
+.login-left .select-icon {
+  position: absolute;
+  pointer-events: none;
+  top: 15px;
+  right: 30px;
+  font-size: 10px;
+  color: #728899;
+  cursor: pointer;
+}
+
 .login-right {
   background-image: url(../images/login-bg.png);
   background-repeat: no-repeat;
