@@ -85,6 +85,42 @@ $("#blog-slider").owlCarousel({
   },
 });
 
+$("#kategoriye-gore-slider").owlCarousel({
+  loop: true,
+  autoplay: false,
+  margin: 20,
+  nav: true,
+  dots: false,
+  responsive: {
+    0: {
+      items: 2,
+      nav: false,
+      dots: true,
+    },
+    768: {
+      items: 3,
+    },
+  },
+});
+
+$("#makine-al-slider").owlCarousel({
+  loop: true,
+  autoplay: false,
+  margin: 20,
+  nav: true,
+  dots: false,
+  responsive: {
+    0: {
+      items: 2,
+      nav: false,
+      dots: true,
+    },
+    768: {
+      items: 3,
+    },
+  },
+});
+
 $("#urun-detay-slider").owlCarousel({
   items: 1,
   dots: false,

@@ -3724,6 +3724,13 @@ footer .container {
   color: #232F5F;
 }
 
+.sgm-kategorileri #kategoriye-gore-slider .owl-nav {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  margin-top: -80px;
+}
+
 
 
 
