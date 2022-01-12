@@ -21,7 +21,9 @@ $("#kategori-slider").owlCarousel({
     0: {
       items: 1,
       nav: false,
-      dots: true,
+      dots: false,
+      center: true,
+      startPosition: 1,
     },
     768: {
       items: 4,
@@ -41,7 +43,7 @@ $("#yeni-eklenenler-slider").owlCarousel({
     0: {
       items: 2,
       nav: false,
-      dots: true,
+      dots: false,
     },
     768: {
       items: 4,
@@ -57,9 +59,9 @@ $("#ihalelerimiz-slider").owlCarousel({
   dots: false,
   responsive: {
     0: {
-      items: 2,
+      items: 1,
       nav: false,
-      dots: true,
+      dots: false,
     },
     768: {
       items: 3,
@@ -93,9 +95,9 @@ $("#kategoriye-gore-slider").owlCarousel({
   dots: false,
   responsive: {
     0: {
-      items: 2,
+      items: 1,
       nav: false,
-      dots: true,
+      dots: false,
     },
     768: {
       items: 3,
@@ -140,8 +142,11 @@ $("#benzer-urunler-slider").owlCarousel({
   dots: false,
   responsive: {
     0: {
-      items: 4,
+      items: 2,
     },
+    768: {
+      items: 4,
+    }
   },
 });
 
@@ -544,4 +549,13 @@ $("#slider-item-3-right").click(function () {
 $("#slider-item-3-left").click(function () {
   $("#slider-item-3-right").toggleClass("d-block");
   $("#slider-item-3-left").removeClass("d-block");
+});
+
+
+// IMAGE UPLOAD
+
+$('.input-images-2').imageUploader({
+  label: "Dosyaları buraya sürükleyip bırakın veya göz atmak için tıklayın",
+  imagesInputName: 'photos',
+  preloadedInputName: 'old'
 });

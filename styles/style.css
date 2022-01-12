@@ -3724,6 +3724,73 @@ footer .container {
   color: #232F5F;
 }
 
+.sgm-ekspertiz .payment .form-group {
+  margin-bottom: 20px;
+}
+
+.sgm-ekspertiz .payment .form-group input {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #728899;
+  border-radius: 1px;
+  height: calc(1.5em + 1.15rem + 2px);
+  padding: .775rem .75rem;
+}
+
+.sgm-ekspertiz .payment .form-group select {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #728899;
+  border-radius: 1px;
+  height: calc(1.5em + 1.15rem + 2px);
+  padding: .275rem .75rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+}
+
+.sgm-ekspertiz .payment .form-group textarea {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #728899;
+  border-radius: 1px;
+  padding: 0.675rem 0.75rem;
+}
+
+.sgm-ekspertiz .payment .input-group .custom-file label {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #728899;
+  height: calc(1.5em + 1.15rem + 2px);
+  padding: .275rem .75rem;
+  display: flex;
+  align-items: center;
+}
+
+.sgm-ekspertiz .payment .select-icon {
+  position: absolute;
+  pointer-events: none;
+  top: 15px;
+  right: 30px;
+  font-size: 10px;
+  color:#728899;
+  cursor: pointer;
+}
+
+.sgm-ekspertiz .payment h3.title {
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #282828;
+  margin: 35px 0 0;
+}
+
 .sgm-kategorileri #kategoriye-gore-slider .owl-nav {
   position: absolute;
   top: 0;
@@ -3792,8 +3859,8 @@ footer .container {
 }
 
 .nav-login-success .dropdown-menu .dropdown-item:hover {
-  background-color: #f8f9fa;
-  color: #44B276;
+  background-color: #232F5F;
+  color: #fff;
 }
 
 .nav-login-success .dropdown-menu .dropdown-item i {
@@ -3866,6 +3933,265 @@ footer .container {
   display: none;
 }
 
+.px-0px {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.px-025rem {
+  padding-left: .25rem !important;
+  padding-right: .25rem !important;
+}
+
+.mb-0px {
+  margin-bottom: 0px !important;
+}
+
+.mb-025rem {
+  margin-bottom: .25rem;
+}
+
+.pr-025rem {
+  padding-right: .25rem !important;
+}
+
+.pl-025rem {
+  padding-left: .25rem !important;
+}
+
+.mt-1rem {
+  margin-top: 1rem;
+}
+
+.mt-2rem {
+  margin-top: 2rem;
+}
+
+.mt-3rem {
+  margin-top: 3rem;
+}
+
+.image-uploader {
+  min-height: 8rem !important;
+}
+
+.teklif-ver-modal {
+  padding: 3rem;
+  text-align: center;
+}
+
+.teklif-ver-modal h5 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #273F52;
+}
+
+.teklif-ver-modal p {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.reklam-ver-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.reklam-ver-top i {
+  font-size: 80px;
+  color: #232F5F;
+}
+
+.reklam-ver-top h6 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #282828;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+
+.reklam-ver-top p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #232323;
+  margin-bottom: 0;
+}
+
+.reklam-ver h5 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  color: #282828;
+  margin-bottom: 30px;
+}
+
+.reklam-ver p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #232323;
+  margin-bottom: 0;
+}
+
+.hemen-reklam-ver {
+  padding: 50px 0;
+}
+
+.hemen-reklam-ver h3 {
+  font-size: 42px;
+  line-height: 51px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 35px;
+}
+
+.hemen-reklam-ver p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #232323;
+  margin-bottom: 35px;
+}
+
+.reklam-ver-odeme h4 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  color: #232323;
+}
+
+.reklam-ver-odeme .payment h5 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #282828;
+  margin-bottom: 20px;
+}
+
+.reklam-ver-odeme .payment button {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+  border-radius: 2px;
+  padding: 8px 56px;
+}
+
+.marka-ilani-banner {
+  background-image: url(../images/marka-ilani-ver.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 427px;
+  position: relative;
+}
+
+.marka-ilani-banner .banner-text {
+  position: absolute;
+  bottom: 100px;
+  left: 66px;
+}
+
+.marka-ilani-banner .banner-text h4 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.marka-ilani-banner .banner-text p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.marka-ilani-title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.marka-ilani-title h1 {
+  font-size: 42px;
+  line-height: 51px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 25px;
+  display: inline-block;
+  background-color: #f8f9fa;
+}
+
+.marka-ilani-title .dropdown-divider {
+  border-top: 1px solid #DADADA;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: 19px;
+}
+
+.urun-detay .eksper-bilgileri {
+  padding: 30px 0;
+}
+
+.urun-detay .eksper-bilgileri h5 {
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 25px;
+}
+
+.urun-detay .eksper-bilgileri .progress-title {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #8E8E8E;
+  margin-bottom: 0;
+}
+
+.urun-detay .eksper-bilgileri .progress .progress-bar {
+  background: linear-gradient(270deg, #44B276 0%, #FBC15F 51.18%, #EB5757 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* RESPONSIVE */
 
 .mobile-bar {
@@ -3873,6 +4199,9 @@ footer .container {
 }
 
 @media only screen and (max-width: 768px) {
+  .sm-overflowx-auto {
+    overflow-x: auto;
+  }
   .sm-d-none {
     display: none !important;
   }
@@ -3902,6 +4231,10 @@ footer .container {
   }
   .sm-p-25px {
     padding: 25px !important;
+  }
+  .sm-px-15px {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
   .sm-mb-8 {
     margin-bottom: 8px !important;
@@ -4234,6 +4567,202 @@ footer .container {
     line-height: 44px;
     font-weight: 600;
     color: #FF6D00;
+  }
+  footer .container {
+    margin: 0;
+  }
+  #kategori-slider .owl-item img {
+    max-height: 180px;
+  }
+  .login-left {
+    padding: 35px;
+    justify-content: flex-start;
+  }
+  .login-left form {
+    width: 100%;
+  }
+  .mobile-login .login-right {
+    max-height: 20vh;
+  }
+  .mobile-login .login-right .text {
+    padding: 0 35px;
+  }
+  .mobile-login .login-right .text h1 {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .mobile-login .login-right .text h1 span {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .mobile-login  .login-right .text p {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .login-left h4 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #282828;
+    margin-bottom: 16px;
+  }
+  .profil-sidebar .acc-card .card-header button {
+    display: block;
+    width: 100%;
+    text-align: center !important;
+  }
+  .exper-table .general-card {
+    padding: 0;
+  }
+  .profil-ilanlarım .urun-ozellikleri .item p {
+    line-height: 20px;
+  }
+  .profilim .mesajlarim .center-box {
+    padding: 16px 0;
+    border: none !important;
+  }
+  .profilim .mesajlarim .dropdown-dots {
+    top: -10px;
+  }
+  .profilim .mesajlarim .dropdown-dots .dropdown-menu {
+    left: -50px !important;
+  }
+  .blog .one-cikanlar {
+    padding: 15px 0;
+  }
+  .blog .one-cikanlar .card img {
+    max-height: 200px;
+  }
+  .blog .one-cikanlar .card .card-body {
+    left: 0;
+    right: 0;
+  }
+  .blog .blog-main {
+    padding: 0;
+  }
+  .blog .blog-main .card img {
+    width: 100%;
+  }
+  .blog .blog-main .card {
+    padding: 15px 0;
+  }
+  .blog .blog-main .card .card-body {
+    padding: 1.25rem .75rem;
+  }
+  .hakkimizda .hakkimizda-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .hakkimizda .hakkimizda-title span {
+    font-size: 24px;
+    line-height: 20px;
+  }
+  .hakkimizda .hakkimizda-other-text .green-card h5.title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .hakkimizda .hakkimizda-other-text .green-card p.text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .hakkimizda .hakkimizda-other-text .bottom-text p {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 10px 0;
+  }
+  .neden-sifir-gibi-makine {
+    padding: 20px 0;
+  }
+  .neden-sifir-gibi-makine .neden-card .card-body {
+    padding: .5rem;
+  }
+  .iletisim .iletisim-form h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .iletisim .iletisim-form p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 15px 0;
+  }
+  .iletisim .iletisim-form {
+    padding: 0 20px;
+  }
+  .kategoriye-gore .tum-kategoriler p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .satici-banner {
+    margin-bottom: 70px;
+  }
+  .satici-logo {
+    max-height: 75px;
+    max-width: 75px;
+  }
+  .sgm-ekspertiz h3.title {
+    font-size: 32px;
+  }
+  .sgm-ekspertiz .box {
+    flex-direction: column;
+    padding: 25px 0;
+  }
+  .sgm-ekspertiz .box .text-center {
+    padding: 20px 0;
+  }
+  .sgm-ekspertiz .box .dots i {
+    display: block;
+    margin: 20px 0;
+  }
+  .sgm-ekspertiz .box .dots i:nth-child(2) {
+    margin-left: -2px;
+  }
+  .sgm-ekspertiz .profilim .profil-right-box p.label {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 5px;
+  }
+  .sgm-ekspertiz .select-date .other-card .card-body a {
+    text-align: center;
+  }
+  .sgm-ekspertiz .select-date .other-card .card-body a i {
+    margin-bottom: 5px;
+  }
+  .sgm-ekspertiz .success .success-icon {
+    font-size: 38px;
+  }
+  .sgm-ekspertiz .success .success-title {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  .sikca-sorulan-sorular .sss-accordion .card-header {
+    padding: 0.75rem;
+  }
+  .sikca-sorulan-sorular .sss-accordion .card-header button {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+  }
+  .sikca-sorulan-sorular .sss-accordion .card-body p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .tarife .tarife-top h4 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .tarife .tarife-top p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .nav-login-success .dropdown-menu {
+    left: -47px;
   }
 }
 
