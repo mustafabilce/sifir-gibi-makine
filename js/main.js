@@ -21,7 +21,7 @@ $("#kategori-slider").owlCarousel({
     0: {
       items: 1,
       nav: false,
-      dots: false,
+      dots: true,
       center: true,
       startPosition: 1,
     },
@@ -29,6 +29,33 @@ $("#kategori-slider").owlCarousel({
       items: 4,
     },
   },
+});
+
+$("#sgm-magazalar-slider").owlCarousel({
+  loop: false,
+  autoplay: false,
+  margin: 20,
+  nav: false,
+  dots: false,
+  responsive: {
+    0: {
+      items: 2,
+      nav: false,
+      dots: true,
+    },
+    768: {
+      items: 6,
+    },
+  },
+});
+
+$("#neden-sifir-gibi-makine").owlCarousel({
+  loop: false,
+  items: 2,
+  autoplay: false,
+  margin: 20,
+  nav: false,
+  dots: true,
 });
 
 $("#yeni-eklenenler-slider").owlCarousel({
@@ -43,7 +70,7 @@ $("#yeni-eklenenler-slider").owlCarousel({
     0: {
       items: 2,
       nav: false,
-      dots: false,
+      dots: true,
     },
     768: {
       items: 4,
@@ -61,7 +88,7 @@ $("#ihalelerimiz-slider").owlCarousel({
     0: {
       items: 1,
       nav: false,
-      dots: false,
+      dots: true,
     },
     768: {
       items: 3,
@@ -97,7 +124,7 @@ $("#kategoriye-gore-slider").owlCarousel({
     0: {
       items: 1,
       nav: false,
-      dots: false,
+      dots: true,
     },
     768: {
       items: 3,
@@ -558,4 +585,20 @@ $('.input-images-2').imageUploader({
   label: "Dosyaları buraya sürükleyip bırakın veya göz atmak için tıklayın",
   imagesInputName: 'photos',
   preloadedInputName: 'old'
+});
+
+$('.input-images-3').imageUploader({
+  label: "Dosyaları buraya sürükleyip bırakın veya göz atmak için tıklayın",
+  imagesInputName: 'photos',
+  preloadedInputName: 'old'
+});
+
+$('.mystaff_hide').addClass('collapse');
+
+$('#mystuff').change(function(){
+    var selector = '.mystaff_' + $(this).val();
+
+    $('.mystaff_hide').collapse('hide');
+
+    $(selector).collapse('show');
 });

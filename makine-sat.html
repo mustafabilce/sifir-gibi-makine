@@ -14,6 +14,54 @@
 <body>
 
     <div class="section bg-light">
+        
+        <div class="mobile-bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                            </svg>
+                            <p>Makine Al</p>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                            </svg>
+                            <p>Makine Sat</p>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="active">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                            </svg>
+                            <p>Anasayfa</p>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                            <p>Kategoriler</p>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a data-toggle="collapse" href="#searchBar" aria-expanded="false" aria-controls="searchBar">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                            <p>Arama</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
         <div class="topbar">
             <div class="container">
                 <div class="row">
@@ -32,25 +80,21 @@
     
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
+    
+                <div class="back-icon">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+    
                 <a class="navbar-brand" href="index.html">
                     <img src="images/logo.png" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-          
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="form-inline my-2 my-lg-0">
-                    <input id="search-input" class="form-control rounded-0" type="search" placeholder="Marka, Model veya İlan No ile Arayın" aria-label="Search">
-                    <button class="btn btn-secondary rounded-0 my-2 my-sm-0" type="submit">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </form>
-                </div>
+    
                 <div class="nav-login-success">
                     <div class="dropdown">
-                        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
-                          Seden Sav
+                        <button class="btn btn-link px-0 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                            <div class="user-icon">
+                                <i class="far fa-user"></i>
+                            </div>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#"><i class="fas fa-user"></i> Profilim</a>
@@ -65,18 +109,50 @@
                         </div>
                     </div>
                 </div>
+          
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input id="search-input" class="form-control rounded-0" type="search" placeholder="Marka, Model veya İlan No ile Arayın" aria-label="Search">
+                        <button class="btn btn-secondary rounded-0 my-2 my-sm-0" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="nav-login-register sm-d-none">
+                    <a href="giris-yap.html">
+                        <button class="btn btn-success">Giriş Yap</button>
+                    </a>
+                    <a href="kayit-ol.html">
+                        <button class="btn btn-outline-secondary">Üye Ol</button>
+                    </a>
+                </div>
             </div>
         </nav>
+
+        <div class="search-bar-collapse just-mobile">
+            <div class="collapse" id="searchBar">
+                <div class="card card-body">
+                    <div class="profil my-0">
+                        <div class="profil-right-box">
+                            <input class="form-control rounded-0" type="search" placeholder="Marka, Model veya İlan No ile Arayın" aria-label="Search">
+                            <button class="btn btn-secondary rounded-0" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     
         <div class="makine-sat">
             <div class="container py-5">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="images/makine-sat.png" alt="">
+                        <img class="img-fluid" src="images/makine-sat.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="nasil-satabilirim py-6 bg-green-transparent">
+            <div class="nasil-satabilirim py-6 sm-py-2 bg-green-transparent">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
