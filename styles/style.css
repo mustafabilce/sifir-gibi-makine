@@ -4321,6 +4321,38 @@ footer .container {
   opacity: 0;
 }
 
+.banner-slider .slide .fa-angle-double-left {
+  color: #44B276;
+  background-color: #DADADA;
+  padding: 12px 10px;
+  border-radius: 50%;
+  z-index: 9999;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  opacity: 1;
+}
+
+.banner-slider .slide.active .fa-angle-double-left {
+  opacity: 0;
+}
+
+.banner-slider .slide .logo-dikey {
+  z-index: 9999;
+  opacity: 1;
+  background-color: #fff;
+  position: absolute;
+  padding: 15px;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.banner-slider .slide .logo-dikey img {
+  max-width: 70px;
+  max-height: 100px;
+}
+
 .banner-slider .slide h3 {
   font-size: 24px;
   letter-spacing: 3px;
@@ -5385,4 +5417,19 @@ footer .container {
 
 #urun-detay-slider .owl-nav button span {
   font-size: 24px;
+}
+
+.blink {
+  animation: blink 2s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
 }
