@@ -204,9 +204,23 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12 px-2">
-                                        <button class="btn btn-block submit-button">
+                                        <button class="btn btn-block submit-button" type="button" data-toggle="modal" data-target="#iletisimModal">
                                             Gönder
                                         </button>
+                                        <div class="modal fade iletisim-modal" id="iletisimModal" tabindex="-1" aria-labelledby="iletisimModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered">
+                                              <div class="modal-content">
+                                                <div class="modal-body">
+                                                <i class="fas fa-check"></i>
+                                                  <h3>Tebrikler</h3>
+                                                  <p>Mesajınız tafaımıza ulaşmıştır. Size en yakın sürede dönüş sağlayacağız.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                  <button type="button" class="btn btn-success btn-sm btn-block" data-dismiss="modal">Kapat</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </form>

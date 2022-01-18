@@ -4308,49 +4308,24 @@ footer .container {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #000;
-  opacity: .4;
-  transition: opacity 0.3s ease 0.3s;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 85%);
+  opacity: .7;
+  transition: opacity 0.8s ease 0.8s;
   -webkit-transition: opacity 0.3s ease 0.3s;
   -moz-transition: opacity 0.3s ease 0.3s;
   -ms-transition: opacity 0.3s ease 0.3s;
   -o-transition: opacity 0.3s ease 0.3s;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-slider .slide .overlay img {
+  max-height: 100px;
+  margin-top: 20px;
 }
 
 .banner-slider .slide.active .overlay {
   opacity: 0;
-}
-
-.banner-slider .slide .fa-angle-double-left {
-  color: #44B276;
-  background-color: #DADADA;
-  padding: 12px 10px;
-  border-radius: 50%;
-  z-index: 9999;
-  position: absolute;
-  top: 40%;
-  left: 30%;
-  opacity: 1;
-}
-
-.banner-slider .slide.active .fa-angle-double-left {
-  opacity: 0;
-}
-
-.banner-slider .slide .logo-dikey {
-  z-index: 9999;
-  opacity: 1;
-  background-color: #fff;
-  position: absolute;
-  padding: 15px;
-  left: 0;
-  right: 0;
-  top: 0;
-}
-
-.banner-slider .slide .logo-dikey img {
-  max-width: 70px;
-  max-height: 100px;
 }
 
 .banner-slider .slide h3 {
@@ -5419,17 +5394,41 @@ footer .container {
   font-size: 24px;
 }
 
-.blink {
-  animation: blink 2s steps(5, start) infinite;
-  -webkit-animation: blink 1s steps(5, start) infinite;
+.iletisim-modal {
+  text-align: center;
 }
-@keyframes blink {
-  to {
-    visibility: hidden;
-  }
+
+.iletisim-modal .modal-body {
+  padding: 2rem 1.25rem;
 }
-@-webkit-keyframes blink {
-  to {
-    visibility: hidden;
-  }
+
+.iletisim-modal .modal-footer {
+  border: none;
+}
+
+.iletisim-modal .modal-footer .btn {
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.iletisim-modal i {
+  font-size: 64px;
+  color: #232F5F;
+  margin-bottom: 15px;
+}
+
+.iletisim-modal h3 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #232323;
+}
+
+.iletisim-modal p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #232323 !important;
+  margin-bottom: 0;
 }
