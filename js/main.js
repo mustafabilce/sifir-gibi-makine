@@ -140,12 +140,12 @@ $("#makine-al-slider").owlCarousel({
   dots: false,
   responsive: {
     0: {
-      items: 2,
+      items: 3,
       nav: false,
       dots: true,
     },
     768: {
-      items: 3,
+      items: 2,
     },
   },
 });
@@ -173,6 +173,9 @@ $("#benzer-urunler-slider").owlCarousel({
       items: 2,
     },
     768: {
+      items: 2,
+    },
+    992: {
       items: 4,
     }
   },
