@@ -153,6 +153,7 @@ $("#makine-al-slider").owlCarousel({
 $("#urun-detay-slider").owlCarousel({
   items: 1,
   dots: false,
+  nav: true,
   loop: false,
   center: true,
   margin: 10,
@@ -343,7 +344,7 @@ var Countdown = {
     }
   }
 };
-// Let's go !
+
 Countdown.init();
 
 var Countdown = {
@@ -509,20 +510,8 @@ var Countdown = {
     }
   }
 };
-// Let's go !
+
 Countdown.init();
-
-/* Flip Card */
-
-$(".flip-button").on("click", function () {
-  $(".front").toggleClass("d-none");
-  $(".back").toggleClass("d-block");
-});
-
-$(".flip-button-2").on("click", function () {
-  $(".front").toggleClass("d-none");
-  $(".back").toggleClass("d-block");
-});
 
 /* OTHER COUNTER */
 

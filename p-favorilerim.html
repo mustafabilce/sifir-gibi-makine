@@ -154,7 +154,7 @@
                             <div class="card acc-card">
                                 <div class="card-header">
                                   <h2 class="mb-0">
-                                    <a href="profilim.html" class="btn btn-link text-left active">
+                                    <a href="profilim.html" class="btn btn-link text-left">
                                       Profilim
                                     </a>
                                   </h2>
@@ -208,7 +208,7 @@
                             <div class="card acc-card">
                                 <div class="card-header">
                                   <h2 class="mb-0">
-                                    <a href="p-favorilerim.html" class="btn btn-link text-left">
+                                    <a href="p-favorilerim.html" class="btn btn-link text-left active">
                                       Favorilerim
                                     </a>
                                   </h2>
@@ -236,90 +236,95 @@
                     </div>
                     <div class="col-md-9 profil-right-box">
                         <div>
-                            <div class="card-body">
-                                <div class="mb-3">
-                                    <h5 class="form-title">
-                                        Kişisel Bilgiler
-                                    </h5>
-                                    <div class="row">
-                                        <div class="col-md-6 pr-025rem sm-px-8">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="ad" placeholder="Adınız">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 pl-025rem sm-px-8">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="soyad" placeholder="Soyadınız">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6 pr-025rem sm-px-8">
-                                            <div class="form-group">
-                                                <input type="date" class="form-control" id="dogum-tarihi" value="1996-01-17" placeholder="Doğum Tarihi">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 pl-025rem sm-px-8">
-                                            <div class="form-group">
-                                                <input type="number" class="form-control" id="tc" placeholder="T.C. Kimlik No">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <h5 class="form-title">
-                                        İletişim Bilgileri
-                                    </h5>
-                                    <div class="row">
-                                        <div class="col-md-6 pr-025rem sm-px-8">
-                                            <div class="form-group">
-                                                <input type="number" class="form-control" id="telefon-no" placeholder="Telefon Numarası">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 pl-025rem sm-px-8">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="eposta" placeholder="E-Posta">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6 pr-025rem sm-px-8">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="il" placeholder="İl">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 pl-025rem sm-px-8">
-                                            <div class="form-group">
-                                                <input type="number" class="form-control" id="ilce" placeholder="İlçe">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 sm-px-8">
-                                            <div class="form-group">
-                                                <textarea class="form-control" id="adres" rows="6" placeholder="Adres"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <h5 class="form-title">
-                                        Kullanıcı Şifresi
-                                    </h5>
-                                    <div class="row">
-                                        <div class="col-md-6 pr-025rem sm-px-8">
-                                            <div class="form-group">
-                                                <input type="password" class="form-control" id="sifre" placeholder="Şifre">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 pl-025rem sm-px-8">
-                                            <div class="form-group">
-                                                <input type="password" class="form-control" id="sifre-tekrar" placeholder="Şifre Tekrarı">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text-center">
-                                    <button class="btn btn-success kaydet-button">Kaydet</button>
-                                </div>
+                            <div class="card-body sm-overflowx-auto">
+                                <table class="sgm-table" id="headingOne">
+                                    <tr>
+                                      <th>İlan Görseli</th>
+                                      <th>İlan Açıklaması</th>
+                                      <th>Marka</th>
+                                      <th>
+                                        Model/ <br />
+                                        Model Yılı
+                                      </th>
+                                      <th>Fiyat</th>
+                                      <th></th>
+                                    </tr>
+                                    <tr class="bg-white">
+                                      <td>
+                                        <img
+                                          class="img-fluid w-100"
+                                          src="images/table-img.png"
+                                          alt=""
+                                        />
+                                      </td>
+                                      <td>
+                                        <span>CNC İşleme Merkezi</span>
+                                        <p>
+                                          Robokut 45 A Plazma Kesim Makinesi
+                                        </p>
+                                      </td>
+                                      <td>
+                                        <p>STAR</p>
+                                      </td>
+                                      <td>
+                                        <p>Kitamura</p>
+                                      </td>
+                                      <td>
+                                        <p class="bold">₺210.000</p>
+                                      </td>
+                                      <td><i class="fas fa-trash"></i></td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                      <td>
+                                        <img
+                                          class="img-fluid w-100"
+                                          src="images/table-img.png"
+                                          alt=""
+                                        />
+                                      </td>
+                                      <td>
+                                        <span>CNC İşleme Merkezi</span>
+                                        <p>
+                                          Robokut 45 A Plazma Kesim Makinesi
+                                        </p>
+                                      </td>
+                                      <td>
+                                        <p>STAR</p>
+                                      </td>
+                                      <td>
+                                        <p>Kitamura</p>
+                                      </td>
+                                      <td>
+                                        <p class="bold">₺210.000</p>
+                                      </td>
+                                      <td><i class="fas fa-trash"></i></td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                      <td>
+                                        <img
+                                          class="img-fluid w-100"
+                                          src="images/table-img.png"
+                                          alt=""
+                                        />
+                                      </td>
+                                      <td>
+                                        <span>CNC İşleme Merkezi</span>
+                                        <p>
+                                          Robokut 45 A Plazma Kesim Makinesi
+                                        </p>
+                                      </td>
+                                      <td>
+                                        <p>STAR</p>
+                                      </td>
+                                      <td>
+                                        <p>Kitamura</p>
+                                      </td>
+                                      <td>
+                                        <p class="bold">₺210.000</p>
+                                      </td>
+                                      <td><i class="fas fa-trash"></i></td>
+                                    </tr>
+                                  </table>
                             </div>
                         </div>
                     </div>
